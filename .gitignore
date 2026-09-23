@@ -1,0 +1,10 @@
+node_modules/
+.vs/
+*.user
+*.suo
+dist/
+.DS_Store
+Thumbs.db
+
+# Community attachment zips built by publish-all.ps1 never get committed
+*.zip

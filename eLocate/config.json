@@ -1,0 +1,49 @@
+{
+  "locator": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+    "singleLineFieldName": "SingleLine",
+    "countryCode": ""
+  },
+  "keepinspectoractive": false,
+  "initialView": "address",
+  "zoomscale": 5000,
+  "forcescale": true,
+  "limitsearchtoviewextentbydefault": false,
+  "pointunits": [
+    {
+      "name": "Decimal degrees",
+      "format": "dd"
+    },
+    {
+      "name": "Degrees decimal minutes",
+      "format": "ddm"
+    },
+    {
+      "name": "Degrees minutes seconds",
+      "format": "dms"
+    },
+    {
+      "name": "MGRS",
+      "format": "mgrs"
+    },
+    {
+      "name": "UTM",
+      "format": "utm"
+    },
+    {
+      "name": "Map X and Y",
+      "format": "xy",
+      "transformation": "auto"
+    }
+  ],
+  "showHelp": true,
+  "resultFormats": [
+    {
+      "format": "dd",
+      "decimals": 6
+    },
+    {
+      "format": "mgrs"
+    }
+  ]
+}

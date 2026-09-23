@@ -1,0 +1,21 @@
+{
+  "name": "elocate",
+  "version": "1.21.0",
+  "description": "Enhanced Locate widget for ArcGIS Experience Builder 1.21: locate an address, go to coordinates in any configured coordinate system, or click the map to get the address there. Based on Robert Scheitlin's Enhanced Locate widget.",
+  "keywords": [
+    "exb-widget",
+    "experience-builder",
+    "exb",
+    "arcgis",
+    "geocode",
+    "reverse-geocode",
+    "coordinates",
+    "locate"
+  ],
+  "license": "Apache-2.0",
+  "author": "Brian McLeer",
+  "contributors": [
+    "Robert Scheitlin (original author)"
+  ],
+  "dependencies": {}
+}

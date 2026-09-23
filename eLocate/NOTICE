@@ -1,0 +1,16 @@
+Enhanced Locate widget for ArcGIS Experience Builder
+
+Copyright 2022 Robert Scheitlin
+Portions Copyright 2026 City of Grand Junction, CO
+
+This product includes software originally developed by Robert Scheitlin
+(Enhanced Locate widget 1.9 for ArcGIS Experience Builder, and the Enhanced
+Locate widget for Web AppBuilder before it), licensed under the Apache
+License, Version 2.0.
+
+The settings panel includes code derived from Esri Experience Builder sample
+code, Copyright 2020 Esri, also licensed under the Apache License, Version 2.0.
+
+Modified by Brian McLeer, City of Grand Junction GIS Division. Modified files
+carry a notice stating that they were changed. See CHANGES.md for a summary of
+the modifications.
