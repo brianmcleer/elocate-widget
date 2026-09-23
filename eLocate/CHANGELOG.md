@@ -3,6 +3,12 @@
 Newest first. For the full record of modifications to Robert Scheitlin's original Enhanced
 Locate widget, see `CHANGES.md`.
 
+## 1.21.1 (2026-09-23)
+
+- Security: the results list strips markup from its labels completely (repeat until no tag is
+  left, then drop any stray angle bracket), closing CodeQL alert js/incomplete-multi-character-
+  sanitization in `list.tsx`. The labels were only ever rendered as text, so no app was exposed.
+
 ## 1.21.0 (2026-09-23)
 
 - First release from GitHub, for Experience Builder Developer Edition 1.21 (Maps SDK 5.x).

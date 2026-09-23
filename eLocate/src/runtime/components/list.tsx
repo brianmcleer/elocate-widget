@@ -2,7 +2,8 @@
 /**
   Enhanced Locate results list. Original by Robert Scheitlin (Apache License 2.0).
   Modified by the City of Grand Junction GIS Division: keyboard and screen reader support
-  (2026, see WCAG-AUDIT.md), React keys, and a guard for content lines without a value.
+  (2026, see WCAG-AUDIT.md), React keys, a guard for content lines without a value, and a
+  complete tag strip for labels (CodeQL js/incomplete-multi-character-sanitization, 1.21.1).
   See CHANGES.md.
 */
 import { jsx, React } from 'jimu-core';
@@ -13,6 +14,22 @@ import { listItem, locateType } from '../../config';
 const pinIcon = require('../assets/i_pin1.gif');
 const mailboxIcon = require('../assets/i_mailbox.gif');
 const houseIcon = require('../assets/i_house.gif');
+
+/**
+ * Plain text from the small bits of markup a result carries (<em>, <br>, <font>). Used only for
+ * text React renders or puts in an attribute, never as HTML. Tags are removed until none are
+ * left, then any stray < or > goes too, so no input can leave a tag behind (a single pass over
+ * "<scr<b>ipt>" would). This is what CodeQL js/incomplete-multi-character-sanitization asks for.
+ */
+const toPlainText = (html: string): string => {
+    let text = String(html ?? '').replace(/<br\s*\/?>/gi, ', ');
+    let previous: string;
+    do {
+        previous = text;
+        text = text.replace(/<[^<>]*>/g, '');
+    } while (text !== previous);
+    return text.replace(/[<>]/g, '');
+};
 
 interface ListProps {
     items: listItem[],
@@ -61,18 +78,18 @@ export default class List extends React.Component<ListProps> {
                 if (attValArr[1] === 'null') {
                     attrValueCont = ": ";
                 } else {
-                    attrValueCont = attValArr[1].replace(/<[\/]{0,1}(em|EM|strong|STRONG|font|FONT|u|U)[^><]*>/g, "");
+                    attrValueCont = toPlainText(attValArr[1]);
                 }
 
                 const attrib: React.JSX.Element = <p className='rlabel' id={itemId} key={`${itemId}-${index}`}
-                    title={attValArr[0].replace(/<[\/]{0,1}(em|EM|strong|STRONG|font|FONT|u|U)[^><]*>/g, "") + ": " + attrValueCont}>
+                    title={toPlainText(attValArr[0]) + ": " + attrValueCont}>
                     <span id={itemId}
                         style={{
                             fontStyle: attValArr[0].toLowerCase().indexOf('<em>') > -1 ? 'italic' : 'normal',
                             fontWeight: attValArr[0].toLowerCase().indexOf('<strong>') > -1 ? 'bold' : 'normal',
                             textDecoration: attValArr[0].toLowerCase().indexOf('<u>') > -1 ? 'underline' : 'initial',
                             color: tHasColor ? tColor : 'initial'
-                        }}>{attValArr[0].replace(/<[\/]{0,1}(em|EM|strong|STRONG|font|FONT|u|U)[^><]*>/g, "") + ": "}</span>
+                        }}>{toPlainText(attValArr[0]) + ": "}</span>
                     <span style={{
                         fontStyle: attValArr[1].toLowerCase().indexOf('<em>') > -1 ? 'italic' : 'normal',
                         fontWeight: attValArr[1].toLowerCase().indexOf('<strong>') > -1 ? 'bold' : 'normal',
@@ -106,7 +123,7 @@ export default class List extends React.Component<ListProps> {
                             iconType = houseIcon;
                             break;
                     }
-                    const recordLabel = item.title + '. ' + (item.content || '').replace(/<br>/g, ', ').replace(/<[^>]*>/g, '');
+                    const recordLabel = item.title + '. ' + toPlainText(item.content || '');
                     return (
                         <div key={itemId} className={`search-list-item${item.selected ? ' selected' : ''}${(i % 2 === 0) ? ' alt' : ''}`} id={itemId}
                             role="listitem"

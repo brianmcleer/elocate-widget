@@ -2,7 +2,7 @@
   "name": "eLocate",
   "label": "Enhanced Locate",
   "type": "widget",
-  "version": "1.21.0",
+  "version": "1.21.1",
   "exbVersion": "1.21.0",
   "author": "Robert Scheitlin; modified by Brian McLeer, City of Grand Junction",
   "description": "Locate an address, go to coordinates in any configured coordinate system, or click the map to get the address there. Originally by Robert Scheitlin.",
