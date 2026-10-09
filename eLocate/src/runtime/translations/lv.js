@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Aizvērt logdaļu un tās zīmes atstāt karti. Atveriet to vēlreiz un atgriežas, līdz noklikšķiniet {clear}.",
         helpTips2: "Katra jaunā meklēšana aizvieto atzīmes no tās, kas bija iepriekš.",
         helpTips3: "Turiet Alt un noklikšķiniet jebkur widget, lai redzētu, kura versija jums ir.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "nezināma kļūda",
+        unserializableError: "nepārspējama kļūda"
       })
     }
   }

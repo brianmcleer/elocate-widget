@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Sluit het widget en de markeringen verlaten de kaart. Open het opnieuw en ze komen terug, totdat je klikt {clear}.",
         helpTips2: "Elke nieuwe zoektocht vervangt de tekens van de vorige.",
         helpTips3: "Houd Alt vast en klik overal in het widget om te zien welke versie je hebt.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "onbekende fout",
+        unserializableError: "onuitwisbare fout"
       })
     }
   }

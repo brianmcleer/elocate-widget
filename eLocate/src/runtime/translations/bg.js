@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Затворете джаджата и нейните знаци напускат картата. Отвори го отново и те ще се върнат, докато не кликнеш {clear}.",
         helpTips2: "Всяко ново търсене заменя белезите от предишния.",
         helpTips3: "Задръжте Alt и кликнете навсякъде в джаджата, за да видите коя версия имате.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "неизвестна грешка",
+        unserializableError: "несериозна грешка"
       })
     }
   }

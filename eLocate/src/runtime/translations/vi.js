@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Đóng ô điều khiển và các dấu của nó để lại bản đồ. Mở nó ra và chúng quay lại, cho đến khi bạn click vào {clear}.",
         helpTips2: "Mỗi tìm kiếm mới thay thế các dấu hiệu từ một trước đó.",
         helpTips3: "Giữ Alt và nhấn vào bất cứ đâu trong ô điều khiển để xem phiên bản bạn có.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "lỗi không rõ",
+        unserializableError: "Lỗi không thể gửi đi được"
       })
     }
   }

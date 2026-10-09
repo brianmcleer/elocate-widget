@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Stäng widgeten och dess märken lämnar kartan. Öppna den igen och de kommer tillbaka tills du klickar {clear}.",
         helpTips2: "Varje ny sökning ersätter märken från en tidigare.",
         helpTips3: "Håll Alt och klicka var som helst i widgeten för att se vilken version du har.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "Okänd fel",
+        unserializableError: "oserialiserbart fel"
       })
     }
   }

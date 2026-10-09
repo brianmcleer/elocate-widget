@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "ウィジェットを閉じるとそのマークはマップを残します。 もう一度開くと、クリックするまで戻ってきます {clear}お問い合わせ",
         helpTips2: "それぞれの新しい検索は、前のものからマークを交換します。",
         helpTips3: "Alt を保持し、ウィジェット内のどこにクリックして、どのバージョンを持っているかを確認します。",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "未知のエラー",
+        unserializableError: "unserializable エラー"
       })
     }
   }

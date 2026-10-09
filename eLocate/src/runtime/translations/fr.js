@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Fermez le widget et ses marques laissent la carte. Ouvre encore et ils reviennent, jusqu'à ce que tu cliques {clear}.",
         helpTips2: "Chaque nouvelle recherche remplace les marques de la précédente.",
         helpTips3: "Tenez Alt et cliquez n'importe où dans le widget pour voir quelle version vous avez.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "erreur inconnue",
+        unserializableError: "Erreur non sérialisable"
       })
     }
   }

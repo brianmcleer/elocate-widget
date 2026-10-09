@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Tutup widget dan tandanya tinggalkan peta. Buka lagi dan mereka kembali, sampai Anda klik {clear}.",
         helpTips2: "Setiap pencarian baru menggantikan tanda dari yang sebelumnya.",
         helpTips3: "Tahan Alt dan klik dimana saja di widget untuk melihat versi mana yang Anda miliki.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "galat tak dikenal",
+        unserializableError: "kesalahan tidak serialisasi"
       })
     }
   }

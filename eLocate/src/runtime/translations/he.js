@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "סגור את הווידג'ט ואת סימניו לעזוב את המפה. פתח אותו שוב והם חוזרים, עד שתלחץ {clear}.",
         helpTips2: "כל חיפוש חדש מחליף את הסימנים מראש.",
         helpTips3: "החזק את אלט ולחץ בכל מקום ב widget כדי לראות איזו גירסה יש לך.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "טעות לא ידועה",
+        unserializableError: "טעות בלתי אפשרית"
       })
     }
   }

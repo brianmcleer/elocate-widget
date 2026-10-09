@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "ปิดวิดเจ็ตและเครื่องหมายของมันออกจากแผนที่ เปิดอีกครั้งและพวกเขากลับมาจนกว่าคุณจะคลิก {clear}.",
         helpTips2: "การค้นหาใหม่แต่ละรายการ จะแทนที่เครื่องหมายจากตัวก่อนหน้า",
         helpTips3: "กด Alt และคลิกที่ใด ๆ ในวิดเจ็ต เพื่อดูว่าคุณมีรุ่นใด",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "ข้อผิดพลาดไม่ทราบสาเหตุ",
+        unserializableError: "ข้อผิดพลาดที่ไม่สามารถตรวจสอบได้"
       })
     }
   }

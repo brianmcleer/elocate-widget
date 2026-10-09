@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Schließen Sie das Widget und seine Markierungen verlassen die Karte. Öffnen Sie es wieder und sie kommen zurück, bis Sie klicken {clear}.",
         helpTips2: "Jede neue Suche ersetzt die Markierungen von der vorherigen.",
         helpTips3: "Halten Sie Alt und klicken Sie überall im Widget, um zu sehen, welche Version Sie haben.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "Unbekannter Fehler",
+        unserializableError: "nichtialisierbarer Fehler"
       })
     }
   }

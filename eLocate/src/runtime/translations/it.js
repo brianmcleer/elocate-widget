@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Chiudere il widget e i suoi segni lasciare la mappa. Aprire di nuovo e tornare, fino a quando si fa clic {clear}.",
         helpTips2: "Ogni nuova ricerca sostituisce i segni prima.",
         helpTips3: "Tenere Alt e fare clic ovunque nel widget per vedere quale versione hai.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "errore sconosciuto",
+        unserializableError: "errore non serializzabile"
       })
     }
   }

@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "关闭部件,其标记离开地图。 打开它,他们回来,直到你点击 {clear}。 。 。 。",
         helpTips2: "每次新的搜索都会取代之前的标记.",
         helpTips3: "请按住 Alt 键, 在部件中任意单击, 以查看您有哪个版本 。",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "未知错误",
+        unserializableError: "无序错误"
       })
     }
   }

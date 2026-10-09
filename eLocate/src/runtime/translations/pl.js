@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Zamknij widżet, a jego znaki opuszczą mapę. Otwórz jeszcze raz, a wrócą, aż klikniesz {clear}.",
         helpTips2: "Każde nowe wyszukiwanie zastępuje znaki z poprzedniego.",
         helpTips3: "Przytrzymaj Alt i kliknij gdziekolwiek w widżecie, aby zobaczyć, która wersja masz.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "nieznany błąd",
+        unserializableError: "błąd niezserializowalny"
       })
     }
   }

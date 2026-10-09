@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Закройте виджет, и его отметки покинут карту. Откройте его снова, и они вернутся, пока вы не нажмете {clear}.",
         helpTips2: "Каждый новый поиск заменяет знаки предыдущего.",
         helpTips3: "Держите Alt и нажмите в любом месте виджета, чтобы увидеть, какая версия у вас есть.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "Неизвестная ошибка",
+        unserializableError: "несериализируемая ошибка"
       })
     }
   }

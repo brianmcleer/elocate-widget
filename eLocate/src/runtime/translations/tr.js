@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Pencereyi kapat ve işaretleri haritayı terk eder. Tekrar açın ve geri dönüyorlar, tıklamanıza kadar {clear}.",
         helpTips2: "Her yeni arama, öncekilerden gelen işaretleri değiştirir.",
         helpTips3: "Alt tutun ve sahip olduğunuz sürümü görmek için bir yere tıklayın.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "Bilinmeyen hata",
+        unserializableError: "Başarısız olmayan hata"
       })
     }
   }

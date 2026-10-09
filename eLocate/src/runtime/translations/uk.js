@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Закрийте віджет і його позначки залиште на карті. Відкрийте його знову і вони повертаються, поки ви натиснете {clear}й",
         helpTips2: "Кожен новий пошук замінює позначки з одного до.",
         helpTips3: "Утримуйте Alt і натисніть в будь-яку точку віджету, щоб побачити яку версію ви маєте.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "Невідома помилка",
+        unserializableError: "несеріалізована помилка"
       })
     }
   }

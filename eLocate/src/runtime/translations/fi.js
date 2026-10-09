@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Sulje vekotin ja sen merkit poistuvat kartalta. Avaa se uudelleen ja he tulevat takaisin, kunnes napsautat {clear}.",
         helpTips2: "Jokainen uusi haku korvaa edellisen jäljet.",
         helpTips3: "Pidä Alt ja klikkaa missä tahansa widget nähdä mikä versio sinulla on.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "tuntematon virhe",
+        unserializableError: "epätavallinen virhe"
       })
     }
   }

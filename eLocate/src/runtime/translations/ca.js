@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Tanca l' estri i les seves marques deixen el mapa. Torna a obrir-la i tornaran fins que feu clic {clear}.",
         helpTips2: "Cada cerca nova substitueix les marques de l' anterior.",
         helpTips3: "Premeu Alt i feu clic a qualsevol lloc de l' estri per veure quina versió teniu.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "error desconegut",
+        unserializableError: "Error no llegible"
       })
     }
   }

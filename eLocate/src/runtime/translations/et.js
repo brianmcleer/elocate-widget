@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Sulge vidin ja selle märgid lahkuvad kaardilt. Avage see uuesti ja nad tulevad tagasi, kuni klõpsate {clear}.",
         helpTips2: "Iga uus otsing asendab eelmise märgi.",
         helpTips3: "Hoidke Alt ja klõpsake vidinas kõikjal, et näha, milline versioon teil on.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "tundmatu viga",
+        unserializableError: "seeriaviisiline viga"
       })
     }
   }

@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Luk kontrollen og dens mærker forlader kortet. Åbn den igen og de kommer tilbage, indtil du klikker {clear}.",
         helpTips2: "Hver ny søgning erstatter mærkerne fra den før.",
         helpTips3: "Hold Alt og klik hvor som helst i kontrollen for at se hvilken version du har.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "ukendt fejl",
+        unserializableError: "userialiserbar fejl"
       })
     }
   }

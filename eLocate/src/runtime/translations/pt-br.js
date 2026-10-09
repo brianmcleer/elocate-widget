@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Feche o widget e suas marcas deixem o mapa. Abra novamente e eles voltam, até você clicar {clear}.",
         helpTips2: "Cada nova busca substitui as marcas da anterior.",
         helpTips3: "Segure Alt e clique em qualquer lugar no widget para ver qual versão você tem.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "Erro desconhecido",
+        unserializableError: "Erro inserializável"
       })
     }
   }

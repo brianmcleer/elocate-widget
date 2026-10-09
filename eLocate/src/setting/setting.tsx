@@ -591,8 +591,8 @@ export default class Setting extends React.PureComponent<AllWidgetSettingProps<I
                 onChange={evt => { this.onDTabChanged(evt.target.checked, 'reverse') }}
                 checked={reverseDisabled} ></Switch>
             </SettingRow>
-            <SettingRow label={this.formatMessage('resultslabel')}>
-              <Switch className='can-x-switch' data-key='result' title={this.formatMessage('resultslabel')}
+            <SettingRow label={this.formatMessage('colResults')}>
+              <Switch className='can-x-switch' data-key='result' title={this.formatMessage('colResults')}
                 onChange={evt => { this.onDTabChanged(evt.target.checked, 'result') }}
                 checked={resultDisabled} ></Switch>
             </SettingRow>

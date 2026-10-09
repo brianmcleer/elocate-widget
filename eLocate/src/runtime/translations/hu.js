@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Zárja be a widget és a jelek hagyja a térképet. Nyisd ki újra és visszajönnek, amíg rá nem kattintasz. {clear}.",
         helpTips2: "Minden új keresés helyettesíti a korábbi jeleket.",
         helpTips3: "Tartsa Alt és kattintson bárhol a widget, hogy melyik verzió van.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "ismeretlen hiba",
+        unserializableError: "nem sorozható hiba"
       })
     }
   }

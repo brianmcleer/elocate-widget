@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Zavrieť widget a jeho značky opustiť mapu. Otvorte to znova a vrátia sa, kým kliknete. {clear}.",
         helpTips2: "Každé nové vyhľadávanie nahrádza značky z predchádzajúceho.",
         helpTips3: "Držte Alt a kliknite kdekoľvek na widget vidieť, ktorá verzia máte.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "neznáma chyba",
+        unserializableError: "neserializovateľná chyba"
       })
     }
   }

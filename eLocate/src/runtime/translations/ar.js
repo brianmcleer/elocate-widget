@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "اغلق المستنقع و علاماته تترك الخريطة افتحه مجدداً و يعودون حتى تضغط {clear}.",
         helpTips2: "كل بحث جديد يحل محل العلامات من قبل",
         helpTips3: "إحمل (ألت) وأضغط على أيّ مكان في الممسحة لترى أيّ نسخة لديك",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "خطأ مجهول",
+        unserializableError: "خطأ غير معقول"
       })
     }
   }

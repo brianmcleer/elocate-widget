@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Închideți widget-ul și semnele sale lasă harta. Deschide-l din nou și se întorc, până când faceți clic {clear}.",
         helpTips2: "Fiecare nouă căutare înlocuiește semnele de la cel dinainte.",
         helpTips3: "Țineți Alt și faceți clic oriunde în widget pentru a vedea ce versiune aveți.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "Eroare necunoscută",
+        unserializableError: "eroare inoperabilă"
       })
     }
   }

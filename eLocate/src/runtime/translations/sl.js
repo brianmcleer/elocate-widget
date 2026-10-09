@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Zapri gradnik in njegove oznake zapustijo zemljevid. Še enkrat odpri in pridejo nazaj, dokler ne klikneš. {clear}.",
         helpTips2: "Vsako novo iskanje nadomesti oznake iz prej.",
         helpTips3: "Držite Alt in kliknite kjerkoli v widget videti, katera različica imate.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "neznana napaka",
+        unserializableError: "Neizvedljiva napaka"
       })
     }
   }

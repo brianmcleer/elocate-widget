@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "위젯을 닫고 그 표는 지도를 남깁니다. 다시 그것을 열고, 당신이 클릭 할 때까지 {clear}·",
         helpTips2: "각 새로운 검색은 앞에 하나에서 표시를 대체합니다.",
         helpTips3: "Alt을 잡고 위젯에서 어디에서든지 클릭하여 필요한 버전을 볼 수 있습니다.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "알 수없는 오류",
+        unserializableError: "unserializable 오류"
       })
     }
   }

@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Κλείστε το widget και τα σημάδια του αφήνουν το χάρτη. Άνοιξέ το ξανά και θα επιστρέψουν, μέχρι να κάνεις κλικ. {clear}.",
         helpTips2: "Κάθε νέα αναζήτηση αντικαθιστά τα σημάδια από το προηγούμενο.",
         helpTips3: "Κρατήστε Alt και κάντε κλικ οπουδήποτε στο widget για να δείτε ποια έκδοση έχετε.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "άγνωστο σφάλμα",
+        unserializableError: "σφάλμα μη ανιχνεύσιμο"
       })
     }
   }

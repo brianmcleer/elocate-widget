@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "Uždarykite valdiklį ir jo žymės palikti žemėlapį. Atidarykite dar kartą ir jie grįžta, kol paspausite {clear}.",
         helpTips2: "Kiekviena nauja paieška pakeičia ženklus iš prieš.",
         helpTips3: "Laikykite Alt ir spustelėkite bet kurioje valdikliui pamatyti, kuri versija turite.",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "nežinoma klaida",
+        unserializableError: "nenustatoma klaida"
       })
     }
   }

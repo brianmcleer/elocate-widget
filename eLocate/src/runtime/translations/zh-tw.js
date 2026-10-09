@@ -127,8 +127,8 @@ System.register([], function (e) {
         helpTips1: "關閉元件, 它的印記留下地圖 。 再打開,他們就會回來,直到你點擊 {clear}.",
         helpTips2: "每次新搜尋都取代了之前的標記 。",
         helpTips3: "按住 Alt , 點擊元件中的任何一個區域, 看看您有哪個版本 。",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        unknownError: "未知的錯誤",
+        unserializableError: "不串連的錯誤"
       })
     }
   }
