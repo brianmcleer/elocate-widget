@@ -53,7 +53,7 @@ System.register([], function (e) {
         fmtDMS: "Grader Minutter Sekunder",
         fmtMGRS: "MGRS",
         fmtUSNG: "USNG",
-        fmtUTM: "UTM",
+        fmtUTM: "UDM",
         fmtXYShort: "X, Y",
         fmtXYMap: "Kort X og Y",
         coordsOutOfArea: "uden for dette koordinatsystems område",
@@ -63,7 +63,7 @@ System.register([], function (e) {
         fmtDMSShort: "Lat Lon (DMS)",
         fmtMGRSShort: "MGRS",
         fmtUSNGShort: "USNG",
-        fmtUTMShort: "UTM",
+        fmtUTMShort: "UDM",
         noMapConnected: "Denne kontrol er endnu ikke tilsluttet et kort. Åbn kontrolindstillingerne og vælg en kortkontrol.",
         noTabsEnabled: "Hver fane i denne kontrol er slået fra. Slå mindst én af adresse, koordinater eller inspektør til i kontrolindstillingerne.",
         loading: "Indlæser",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Intet i guiden matcher det ord. Prøv en anden, eller åbn afsnittene ovenfor.",
         helpAnd: "og",
         helpOr: "Eller",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Ny her?",
         firstRunBody: "Vælg en fane øverst, skriv en adresse eller koordinater og klik på Find, og stedet er markeret på kortet.",
         firstRunHelpLink: "Åbn guiden.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Frafald",
         helpStartTitle: "Start her: tre trin",
         helpStart1: "Vælg en fane øverst: {tabs}.",
         helpStart2: "Så {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Godt at vide",
         helpTips1: "Luk kontrollen og dens mærker forlader kortet. Åbn den igen og de kommer tilbage, indtil du klikker {clear}.",
         helpTips2: "Hver ny søgning erstatter mærkerne fra den før.",
-        helpTips3: "Hold Alt og klik hvor som helst i kontrollen for at se hvilken version du har."
+        helpTips3: "Hold Alt og klik hvor som helst i kontrollen for at se hvilken version du har.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

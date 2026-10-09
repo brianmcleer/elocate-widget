@@ -24,7 +24,7 @@ System.register([], function (e) {
         revgeocodetip: "כתובת: Point",
         coordUnitLbl: "יחידות:",
         example: "דוגמה:",
-        locate: "Locate",
+        locate: "המונחים",
         drawpointtooltip: "כתובת: Inspect Locations",
         longitude: "Longitude (X)",
         latitude: "חשיבות (Y)",
@@ -52,7 +52,7 @@ System.register([], function (e) {
         fmtDDM: "מעלות ודקות עשרוניות",
         fmtDMS: "מעלות דקות שניות",
         fmtMGRS: "MGRS",
-        fmtUSNG: "USNG",
+        fmtUSNG: "ארה\"ב",
         fmtUTM: "UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "מפה X ו- Y",
@@ -62,7 +62,7 @@ System.register([], function (e) {
         fmtDDMShort: "Lat Lon (DDM)",
         fmtDMSShort: "Lat Lon (DMS)",
         fmtMGRSShort: "MGRS",
-        fmtUSNGShort: "USNG",
+        fmtUSNGShort: "ארה\"ב",
         fmtUTMShort: "UTM",
         noMapConnected: "השרביט הזה עדיין לא מחובר למפה. פתח את הגדרות widget ובחר ממפה.",
         noTabsEnabled: "כל כרטיסה בשרביט הזה כבויה. הפעל לפחות אחת מהכתובת, לתאם או אחורה בהגדרות הווידג'ט.",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "שום דבר במדריך לא מתאים למילה הזאת. נסה עוד, או לפתוח את החלקים לעיל.",
         helpAnd: "וגם",
         helpOr: "או",
-        firstRunTitle: "New here?",
+        firstRunTitle: "חדש כאן?",
         firstRunBody: "בחר כרטיסה בחלק העליון, הקלד כתובת או לתאם ולחץ Locate, ואת המקום מסומן על המפה.",
-        firstRunHelpLink: "פתח את המדריך",
-        firstRunDismiss: "Dismiss",
+        firstRunHelpLink: "פתח את המדריך.",
+        firstRunDismiss: "משמעת",
         helpStartTitle: "התחל כאן: שלושה צעדים",
         helpStart1: "בחרו בכרטיסיה בחלק העליון: {tabs}.",
         helpStart2: "אחר כך {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "טוב לדעת",
         helpTips1: "סגור את הווידג'ט ואת סימניו לעזוב את המפה. פתח אותו שוב והם חוזרים, עד שתלחץ {clear}.",
         helpTips2: "כל חיפוש חדש מחליף את הסימנים מראש.",
-        helpTips3: "החזק את אלט ולחץ בכל מקום ב widget כדי לראות איזו גירסה יש לך."
+        helpTips3: "החזק את אלט ולחץ בכל מקום ב widget כדי לראות איזו גירסה יש לך.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

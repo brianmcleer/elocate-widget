@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Mikään oppaassa ei vastaa tuota sanaa. Kokeile toista, tai avaa kohdat yllä.",
         helpAnd: "ja",
         helpOr: "Tai",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Uusi täällä?",
         firstRunBody: "Valitse välilehti yläreunasta, kirjoita osoite tai koordinaatit ja napsauta Locate, ja paikka on merkitty kartalle.",
         firstRunHelpLink: "Avaa opas.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Poistu",
         helpStartTitle: "Aloita tästä: kolme vaihetta",
         helpStart1: "Valitse välilehti yläreunasta: {tabs}.",
         helpStart2: "Sitten {actions}.",
@@ -114,7 +114,7 @@ System.register([], function (e) {
         helpResults2: "Klikkaa tulosta siirtää kartta siihen ja avaa sen yksityiskohdat.",
         helpResults3: "Tuloksen oikealla puolella oleva x vie sen pois. {clear} Viekää kaikki pois.",
         helpResultsAutoClose: "Yksityiskohdat sulkeutuvat itsestään muutaman sekunnin kuluttua. Pidä hiiri sen päällä ja se pysyy auki.",
-        helpTroubleTitle: "Jos jokin näyttää väärältä.",
+        helpTroubleTitle: "Jos jokin näyttää väärältä",
         helpTroubleNoMap: "Widget pyytää karttaa: sitä ei ole vielä liitetty yhteen. Pyydä tämän sovelluksen rakentajaa valitsemaan kartta widget-asetuksista.",
         helpTroubleNoResults: "Ei tuloksia: osoitetta ei löytynyt. Tarkista oikeinkirjoitus, jätä pois mikä tahansa yksikkö tai sviitti numero, ja yritä uudelleen.",
         helpTroubleExtent: "Ei tuloksia \"{limit}\" rastittu: osoite on alueen ulkopuolella kartta näyttää. Avaa tai zoomaa, yritä uudelleen.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Hyvä tietää",
         helpTips1: "Sulje vekotin ja sen merkit poistuvat kartalta. Avaa se uudelleen ja he tulevat takaisin, kunnes napsautat {clear}.",
         helpTips2: "Jokainen uusi haku korvaa edellisen jäljet.",
-        helpTips3: "Pidä Alt ja klikkaa missä tahansa widget nähdä mikä versio sinulla on."
+        helpTips3: "Pidä Alt ja klikkaa missä tahansa widget nähdä mikä versio sinulla on.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

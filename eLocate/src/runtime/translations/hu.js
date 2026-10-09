@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "A kalauzban semmi sem egyezik ezzel a szóval. Próbálja meg egy másik, vagy nyissa ki a fenti szakaszok.",
         helpAnd: "és",
         helpOr: "Vagy",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Új itt?",
         firstRunBody: "Válassza ki a lap tetején, írja be a címet vagy koordinátákat, és kattintson a Locate, és a hely van jelölve a térképen.",
         firstRunHelpLink: "Nyisd ki az útmutatót.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Elutasítás",
         helpStartTitle: "Kezdjük itt: három lépés",
         helpStart1: "Válassz egy lapot a tetején: {tabs}.",
         helpStart2: "Akkor... {actions}.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Cím ellenőrzés sikertelen: nincs cím közel ahhoz a ponthoz. Kattintson közelebb egy utcához.",
         helpTroubleSpinner: "A widget folyamatosan forog: a térkép még mindig töltődik. Adj neki egy percet, aztán töltsd újra az oldalt.",
         helpTroubleContact: "Még mindig? Lépjen kapcsolatba a FIS Division, és említse meg a Enhanced Locate widget és ezt az alkalmazást.",
-        helpTipsTitle: "Jó tudni.",
+        helpTipsTitle: "Jó tudni",
         helpTips1: "Zárja be a widget és a jelek hagyja a térképet. Nyisd ki újra és visszajönnek, amíg rá nem kattintasz. {clear}.",
         helpTips2: "Minden új keresés helyettesíti a korábbi jeleket.",
-        helpTips3: "Tartsa Alt és kattintson bárhol a widget, hogy melyik verzió van."
+        helpTips3: "Tartsa Alt és kattintson bárhol a widget, hogy melyik verzió van.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

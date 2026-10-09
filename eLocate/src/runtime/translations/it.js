@@ -52,7 +52,7 @@ System.register([], function (e) {
         fmtDDM: "Gradi minuti decimali",
         fmtDMS: "Gradi minuti secondi",
         fmtMGRS: "MGRS",
-        fmtUSNG: "USNG",
+        fmtUSNG: "USA",
         fmtUTM: "UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "Mappa X e Y",
@@ -62,7 +62,7 @@ System.register([], function (e) {
         fmtDDMShort: "Lat Lon (DDM)",
         fmtDMSShort: "Lat Lon (DMS)",
         fmtMGRSShort: "MGRS",
-        fmtUSNGShort: "USNG",
+        fmtUSNGShort: "USA",
         fmtUTMShort: "UTM",
         noMapConnected: "Questo widget non è ancora collegato a una mappa. Aprire le impostazioni del widget e scegliere un widget di Map.",
         noTabsEnabled: "Ogni scheda in questo widget è spento. Attivare almeno uno di Indirizzo, Coordinate o Ispettore nelle impostazioni del widget.",
@@ -73,12 +73,12 @@ System.register([], function (e) {
         helpIntro: "Trova un posto sulla mappa per il suo indirizzo, per le sue coordinate, o facendo clic sulla mappa per ottenere l'indirizzo lì.",
         helpSearchPlaceholder: "Cerca la guida (prova \"indirizzo\" o \"latitudine\")",
         helpNoMatches: "Niente nella guida corrisponde a quella parola. Prova un altro, o apri le sezioni sopra.",
-        helpAnd: "and",
+        helpAnd: "And",
         helpOr: "or",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nuovo qui?",
         firstRunBody: "Scegli una scheda in alto, digita un indirizzo o coordinate e fai clic su Trova, e il posto è segnato sulla mappa.",
         firstRunHelpLink: "Apri la guida.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Oggetto",
         helpStartTitle: "Inizia qui: tre passi",
         helpStart1: "Scegli una scheda in alto: {tabs}.",
         helpStart2: "Allora {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Buono a sapersi",
         helpTips1: "Chiudere il widget e i suoi segni lasciare la mappa. Aprire di nuovo e tornare, fino a quando si fa clic {clear}.",
         helpTips2: "Ogni nuova ricerca sostituisce i segni prima.",
-        helpTips3: "Tenere Alt e fare clic ovunque nel widget per vedere quale versione hai."
+        helpTips3: "Tenere Alt e fare clic ovunque nel widget per vedere quale versione hai.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

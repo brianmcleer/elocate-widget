@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Res en la guia coincideix amb aquesta paraula. Proveu-ne una altra, o obriu les seccions de dalt.",
         helpAnd: "i",
         helpOr: "or",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nova aquí?",
         firstRunBody: "Trieu una pestanya a la part superior, escriviu una adreça o coordenades i cliqueu el Localitza, i el lloc està marcat en el mapa.",
         firstRunHelpLink: "Obre la guia.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Descarta",
         helpStartTitle: "Comença aquí: tres passes",
         helpStart1: "Trieu una pestanya a la part superior: {tabs}.",
         helpStart2: "Aleshores {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Bo saber-ho",
         helpTips1: "Tanca l' estri i les seves marques deixen el mapa. Torna a obrir-la i tornaran fins que feu clic {clear}.",
         helpTips2: "Cada cerca nova substitueix les marques de l' anterior.",
-        helpTips3: "Premeu Alt i feu clic a qualsevol lloc de l' estri per veure quina versió teniu."
+        helpTips3: "Premeu Alt i feu clic a qualsevol lloc de l' estri per veure quina versió teniu.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

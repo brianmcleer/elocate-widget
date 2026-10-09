@@ -73,12 +73,12 @@ System.register([], function (e) {
         helpIntro: "Leia koht kaardil selle aadressi, koordinaatide või klõpsates kaardil saada aadress seal.",
         helpSearchPlaceholder: "Otsige juhendist (proovige \"aadress\" või \"laiuskraad\")",
         helpNoMatches: "Mitte miski juhendis ei klapi selle sõnaga. Proovige teist või avage ülaltoodud lõigud.",
-        helpAnd: "and",
+        helpAnd: "ja",
         helpOr: "or",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Uus siin?",
         firstRunBody: "Valige ülaosas vahekaart, sisestage aadress või koordinaadid ja klõpsake Locate ja koht on kaardil märgitud.",
         firstRunHelpLink: "Tee teejuht lahti.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Tühistage",
         helpStartTitle: "Alusta siit: kolm sammu",
         helpStart1: "Vali ülalt kaart: {tabs}.",
         helpStart2: "Siis {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Hea teada",
         helpTips1: "Sulge vidin ja selle märgid lahkuvad kaardilt. Avage see uuesti ja nad tulevad tagasi, kuni klõpsate {clear}.",
         helpTips2: "Iga uus otsing asendab eelmise märgi.",
-        helpTips3: "Hoidke Alt ja klõpsake vidinas kõikjal, et näha, milline versioon teil on."
+        helpTips3: "Hoidke Alt ja klõpsake vidinas kõikjal, et näha, milline versioon teil on.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

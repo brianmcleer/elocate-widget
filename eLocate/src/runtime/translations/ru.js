@@ -52,7 +52,7 @@ System.register([], function (e) {
         fmtDDM: "Градусы с десятичными минутами",
         fmtDMS: "Градусы минуты секунды",
         fmtMGRS: "MGRS",
-        fmtUSNG: "USNG",
+        fmtUSNG: "песнь",
         fmtUTM: "UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "Карта X и Y",
@@ -62,7 +62,7 @@ System.register([], function (e) {
         fmtDDMShort: "Лат Лон (DDM)",
         fmtDMSShort: "Лат Лон (DMS)",
         fmtMGRSShort: "MGRS",
-        fmtUSNGShort: "USNG",
+        fmtUSNGShort: "песнь",
         fmtUTMShort: "UTM",
         noMapConnected: "Этот виджет еще не подключен к карте. Откройте настройки виджета и выберите виджет Карты.",
         noTabsEnabled: "Каждая вкладка в этом виджете выключена. Включите хотя бы один адрес, координаты или инспектора в настройках виджета.",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Ничто в руководстве не соответствует этому слову. Попробуйте другой или откройте разделы выше.",
         helpAnd: "и",
         helpOr: "или",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Здесь новый?",
         firstRunBody: "Выберите вкладку в верхней части, введите адрес или координаты и нажмите «Найти», и место будет отмечено на карте.",
         firstRunHelpLink: "Откройте проводник.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Увольнение",
         helpStartTitle: "Начните здесь: три шага",
         helpStart1: "Выберите вкладку вверху: {tabs}.",
         helpStart2: "Потом {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Хорошо знать",
         helpTips1: "Закройте виджет, и его отметки покинут карту. Откройте его снова, и они вернутся, пока вы не нажмете {clear}.",
         helpTips2: "Каждый новый поиск заменяет знаки предыдущего.",
-        helpTips3: "Держите Alt и нажмите в любом месте виджета, чтобы увидеть, какая версия у вас есть."
+        helpTips3: "Держите Alt и нажмите в любом месте виджета, чтобы увидеть, какая версия у вас есть.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nekas ceļvedī neatbilst šim vārdam. Mēģiniet citu, vai atvērt sadaļas iepriekš.",
         helpAnd: "un",
         helpOr: "Vai",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Jauna šeit?",
         firstRunBody: "Izvēlieties cilni augšā, ierakstiet adresi vai koordinātas un noklikšķiniet uz Atrast, un vieta ir atzīmēta kartē.",
         firstRunHelpLink: "Atveriet ceļvedi.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Noņemt",
         helpStartTitle: "Sākt šeit: trīs soļi",
         helpStart1: "Augšpusē izvēlieties cilni: {tabs}.",
         helpStart2: "Tad {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Labi zināt",
         helpTips1: "Aizvērt logdaļu un tās zīmes atstāt karti. Atveriet to vēlreiz un atgriežas, līdz noklikšķiniet {clear}.",
         helpTips2: "Katra jaunā meklēšana aizvieto atzīmes no tās, kas bija iepriekš.",
-        helpTips3: "Turiet Alt un noklikšķiniet jebkur widget, lai redzētu, kura versija jums ir."
+        helpTips3: "Turiet Alt un noklikšķiniet jebkur widget, lai redzētu, kura versija jums ir.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

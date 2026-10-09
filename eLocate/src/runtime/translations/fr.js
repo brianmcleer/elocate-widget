@@ -52,7 +52,7 @@ System.register([], function (e) {
         fmtDDM: "Degrés minutes décimales",
         fmtDMS: "Degrés minutes secondes",
         fmtMGRS: "MGRS",
-        fmtUSNG: "USNG",
+        fmtUSNG: "États-Unis",
         fmtUTM: "UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "Carte X et Y",
@@ -62,7 +62,7 @@ System.register([], function (e) {
         fmtDDMShort: "Lat Lon (DDM)",
         fmtDMSShort: "Lat Lon (DMS)",
         fmtMGRSShort: "MGRS",
-        fmtUSNGShort: "USNG",
+        fmtUSNGShort: "États-Unis",
         fmtUTMShort: "UTM",
         noMapConnected: "Ce widget n'est pas encore connecté à une carte. Ouvrez les paramètres du widget et choisissez un widget Map.",
         noTabsEnabled: "Chaque onglet de ce widget est désactivé. Retourner au moins une adresse, coordonnées ou inspecteur dans les paramètres du widget.",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Rien dans le guide ne correspond à ce mot. Essayez un autre, ou ouvrez les sections ci-dessus.",
         helpAnd: "et",
         helpOr: "Ou",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nouveau ici ?",
         firstRunBody: "Choisissez un onglet en haut, tapez une adresse ou des coordonnées et cliquez sur Localiser, et l'endroit est marqué sur la carte.",
         firstRunHelpLink: "Ouvrez le guide.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Rejet",
         helpStartTitle: "Commencez ici: trois étapes",
         helpStart1: "Choisissez un onglet en haut : {tabs}.",
         helpStart2: "Alors {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Bon à savoir",
         helpTips1: "Fermez le widget et ses marques laissent la carte. Ouvre encore et ils reviennent, jusqu'à ce que tu cliques {clear}.",
         helpTips2: "Chaque nouvelle recherche remplace les marques de la précédente.",
-        helpTips3: "Tenez Alt et cliquez n'importe où dans le widget pour voir quelle version vous avez."
+        helpTips3: "Tenez Alt et cliquez n'importe où dans le widget pour voir quelle version vous avez.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

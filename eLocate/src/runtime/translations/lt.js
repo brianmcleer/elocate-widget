@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Vadove nėra nieko, kas atitiktų šį žodį. Pabandykite kitą, arba atidaryti skyrių aukščiau.",
         helpAnd: "ir",
         helpOr: "Arba",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Čia nauja?",
         firstRunBody: "Pasirinkite skirtuką viršuje, įveskite adresą ar koordinates ir spustelėkite lokuoti, ir vieta yra pažymėta žemėlapyje.",
         firstRunHelpLink: "Atidaryk gidą.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Nutraukti",
         helpStartTitle: "Pradėti čia: trys žingsniai",
         helpStart1: "Pasirinkite skirtuką viršuje: {tabs}.",
         helpStart2: "Tada {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Gera žinoti",
         helpTips1: "Uždarykite valdiklį ir jo žymės palikti žemėlapį. Atidarykite dar kartą ir jie grįžta, kol paspausite {clear}.",
         helpTips2: "Kiekviena nauja paieška pakeičia ženklus iš prieš.",
-        helpTips3: "Laikykite Alt ir spustelėkite bet kurioje valdikliui pamatyti, kuri versija turite."
+        helpTips3: "Laikykite Alt ir spustelėkite bet kurioje valdikliui pamatyti, kuri versija turite.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nič v vodiču se ne ujema s to besedo. Poskusite drugo ali pa odprite zgornje oddelke.",
         helpAnd: "in",
         helpOr: "Ali",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nova tukaj?",
         firstRunBody: "Izberite zavihek na vrhu, vnesite naslov ali koordinate in kliknite Locate, mesto pa je označeno na zemljevidu.",
         firstRunHelpLink: "Odpri vodič.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Prosto",
         helpStartTitle: "Začnite tukaj: trije koraki",
         helpStart1: "Izberite zavihek na vrhu: {tabs}.",
         helpStart2: "Potem {actions}.",
@@ -114,7 +114,7 @@ System.register([], function (e) {
         helpResults2: "Kliknite na rezultat, da premaknete zemljevid nanjo in odprete njegove podrobnosti.",
         helpResults3: "x na desni od rezultata vzame tega. {clear} Vse odpelji.",
         helpResultsAutoClose: "Podrobnosti se zaprejo po nekaj sekundah. Naj miška nad njo ostane odprta.",
-        helpTroubleTitle: "Če je kaj narobe.",
+        helpTroubleTitle: "Če je kaj narobe",
         helpTroubleNoMap: "Gradnik zahteva zemljevid: še ni povezan z enim. Vprašajte tistega, ki je zgradil to aplikacijo, da izberete zemljevid v nastavitvah gradnikov.",
         helpTroubleNoResults: "Ni najdenih rezultatov: naslova ni bilo. Preveri črkovanje, izpusti katero koli enoto ali sobo in poskusi znova.",
         helpTroubleExtent: "Ni najdenih rezultatov z \"{limit}Naslov je izven območja, ki ga prikazuje zemljevid. Odkljukajte ali povečajte in poskusite znova.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Naslov Inšpekcija ni uspela: v bližini tega mesta ni nobenega naslova. Klikni bliže ulici.",
         helpTroubleSpinner: "Gradnik se vrti: zemljevid se še vedno nalaga. Samo trenutek, nato pa znova naloži stran.",
         helpTroubleContact: "Še vedno obtičal? Kontaktirajte GIS oddelek in omenite Izboljšano Locate widget in to aplikacijo.",
-        helpTipsTitle: "Dobro je vedeti.",
+        helpTipsTitle: "Dobro je vedeti",
         helpTips1: "Zapri gradnik in njegove oznake zapustijo zemljevid. Še enkrat odpri in pridejo nazaj, dokler ne klikneš. {clear}.",
         helpTips2: "Vsako novo iskanje nadomesti oznake iz prej.",
-        helpTips3: "Držite Alt in kliknite kjerkoli v widget videti, katera različica imate."
+        helpTips3: "Držite Alt in kliknite kjerkoli v widget videti, katera različica imate.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

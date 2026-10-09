@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Tidak ada dalam panduan cocok kata itu. Coba yang lain, atau buka bagian di atas.",
         helpAnd: "dan",
         helpOr: "Atau",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Baru di sini?",
         firstRunBody: "Pilih sebuah tab di bagian atas, ketik sebuah alamat atau koordinat dan klik Locate, dan tempat itu ditandai pada peta.",
         firstRunHelpLink: "Buka panduannya.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Bubarkan",
         helpStartTitle: "Mulai dari sini: tiga langkah",
         helpStart1: "Pilih tab di bagian atas: {tabs}.",
         helpStart2: "Lalu {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Baik untuk mengetahui",
         helpTips1: "Tutup widget dan tandanya tinggalkan peta. Buka lagi dan mereka kembali, sampai Anda klik {clear}.",
         helpTips2: "Setiap pencarian baru menggantikan tanda dari yang sebelumnya.",
-        helpTips3: "Tahan Alt dan klik dimana saja di widget untuk melihat versi mana yang Anda miliki."
+        helpTips3: "Tahan Alt dan klik dimana saja di widget untuk melihat versi mana yang Anda miliki.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

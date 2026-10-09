@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nic v průvodci neodpovídá tomu slovu. Zkuste jiný, nebo otevřete sekce výše.",
         helpAnd: "A",
         helpOr: "Nebo",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nový tady?",
         firstRunBody: "Vyberte si kartu v horní části, napište adresu nebo souřadnice a klepněte na tlačítko Vyhledat, a místo je vyznačeno na mapě.",
         firstRunHelpLink: "Otevři průvodce.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Rozpustit",
         helpStartTitle: "Začněte zde: tři kroky",
         helpStart1: "Vyberte si kartu nahoře: {tabs}.",
         helpStart2: "Pak {actions}.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Inspekce adres selhala: v blízkosti tohoto místa není žádná adresa. Klikněte blíže k ulici.",
         helpTroubleSpinner: "Widget se pořád točí: mapa se stále načítá. Dejte tomu chvilku, pak to znovu nabijte.",
         helpTroubleContact: "Pořád se zasekl? Kontaktujte sekci GIS a zmiňte widget Enhanced Locate a tuto aplikaci.",
-        helpTipsTitle: "Dobré vědět.",
+        helpTipsTitle: "Dobré vědět",
         helpTips1: "Zavřít widget a jeho značky opustit mapu. Otevři to znovu a oni se vrátí, dokud neklikneš {clear}.",
         helpTips2: "Každé nové hledání nahrazuje značky z té předchozí.",
-        helpTips3: "Držte Alt a klikněte kdekoli v widgetu, abyste viděli, kterou verzi máte."
+        helpTips3: "Držte Alt a klikněte kdekoli v widgetu, abyste viděli, kterou verzi máte.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

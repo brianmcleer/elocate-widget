@@ -24,7 +24,7 @@ System.register([], function (e) {
         revgeocodetip: "Επιθεώρηση διεύθυνσης ανά σημείο",
         coordUnitLbl: "Μονάδες:",
         example: "Παράδειγμα:",
-        locate: "Locate",
+        locate: "Εντοπισμός",
         drawpointtooltip: "Έλεγχος της διεύθυνσης των τόπων",
         longitude: "Γεωγραφικό μήκος (X)",
         latitude: "Γεωγραφικό πλάτος (Y)",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Τίποτα στον οδηγό δεν ταιριάζει με αυτή τη λέξη. Δοκιμάστε ένα άλλο, ή ανοίξτε τα τμήματα παραπάνω.",
         helpAnd: "και",
         helpOr: "Ή",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Καινούριο εδώ;",
         firstRunBody: "Επιλέξτε μια καρτέλα στην κορυφή, πληκτρολογήστε μια διεύθυνση ή συντεταγμένες και κάντε κλικ στο Εντοπίστε, και η θέση σημειώνεται στο χάρτη.",
         firstRunHelpLink: "Άνοιξε τον οδηγό.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Ελεύθεροι",
         helpStartTitle: "Εκκίνηση εδώ: τρία βήματα",
         helpStart1: "Επιλέξτε μια καρτέλα στην κορυφή: {tabs}.",
         helpStart2: "Τότε... {actions}.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Η επιθεώρηση διεύθυνσης απέτυχε: δεν υπάρχει διεύθυνση κοντά στο σημείο αυτό. Κάντε κλικ πιο κοντά σε ένα δρόμο.",
         helpTroubleSpinner: "Το γραφικό συστατικό συνεχίζει να περιστρέφεται: ο χάρτης εξακολουθεί να φορτώνει. Δώστε του ένα λεπτό και ξαναγεμίστε τη σελίδα.",
         helpTroubleContact: "Ακόμα κολλημένος; Επικοινωνήστε με το τμήμα GIS και αναφέρετε το γραφικό συστατικό Enhanced Locate και αυτή την εφαρμογή.",
-        helpTipsTitle: "Χαίρομαι που το μαθαίνω.",
+        helpTipsTitle: "Χαίρομαι που το μαθαίνω",
         helpTips1: "Κλείστε το widget και τα σημάδια του αφήνουν το χάρτη. Άνοιξέ το ξανά και θα επιστρέψουν, μέχρι να κάνεις κλικ. {clear}.",
         helpTips2: "Κάθε νέα αναζήτηση αντικαθιστά τα σημάδια από το προηγούμενο.",
-        helpTips3: "Κρατήστε Alt και κάντε κλικ οπουδήποτε στο widget για να δείτε ποια έκδοση έχετε."
+        helpTips3: "Κρατήστε Alt και κάντε κλικ οπουδήποτε στο widget για να δείτε ποια έκδοση έχετε.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

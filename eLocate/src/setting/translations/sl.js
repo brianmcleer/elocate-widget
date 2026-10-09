@@ -58,7 +58,7 @@ System.register([], function (e) {
         helpSection: "Vodnik za pomoč",
         showHelp: "Prikaži vodnik za pomoč",
         showHelpTip: "Prikaže gumb z znakom za vprašanja, ki odpre navodila za pomoč in widget, in namig za prvo vožnjo.",
-        coordFormat: "Format",
+        coordFormat: "Oblika",
         fmtXY: "X in Y",
         fmtDD: "Decimalne stopinje",
         fmtDDM: "Stopinje decimalke minute",

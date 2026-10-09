@@ -51,9 +51,9 @@ System.register([], function (e) {
         fmtDD: "องศาทศนิยม",
         fmtDDM: "องศาในหน่วยทศนิยม",
         fmtDMS: "องศา ลิปดา ฟิลิปดา",
-        fmtMGRS: "MGRS",
+        fmtMGRS: "เมกะไบต์",
         fmtUSNG: "USNG",
-        fmtUTM: "UTM",
+        fmtUTM: "ขนาด UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "แผนที่ X และ Y",
         coordsOutOfArea: "นอกระบบพิกัดนี้",
@@ -61,9 +61,9 @@ System.register([], function (e) {
         fmtDDShort: "ลาว",
         fmtDDMShort: "Lat Lun (DDM)",
         fmtDMSShort: "Laat Lun (DMS)",
-        fmtMGRSShort: "MGRS",
+        fmtMGRSShort: "เมกะไบต์",
         fmtUSNGShort: "USNG",
-        fmtUTMShort: "UTM",
+        fmtUTMShort: "ขนาด UTM",
         noMapConnected: "วิดเจ็ตนี้ยังไม่ได้เชื่อมต่อกับแผนที่ เปิดการตั้งค่าวิดเจ็ตและเลือกวิดเจ็ตของแผนที่",
         noTabsEnabled: "ทุกแท็บในวิดเจ็ตนี้ถูกปิด เปิดที่อยู่อย่างน้อยหนึ่งที่อยู่, พิกัดหรือผู้ตรวจสอบกลับมา ในการตั้งค่าวิดเจ็ต",
         loading: "กำลังโหลด",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "ไม่มีอะไรในคู่มือที่ตรงกับคํานั้น ลอง เปิด อีก ส่วน หนึ่ง ข้าง บน.",
         helpAnd: "และ",
         helpOr: "or",
-        firstRunTitle: "New here?",
+        firstRunTitle: "ใหม่ที่นี่?",
         firstRunBody: "เลือกแท็บที่ด้านบน กดที่อยู่หรือพิกัด แล้วคลิก Loathy และสถานที่จะถูกทําเครื่องหมายบนแผนที่",
-        firstRunHelpLink: "เปิดคู่มือ",
-        firstRunDismiss: "Dismiss",
+        firstRunHelpLink: "เปิดคู่มือ.",
+        firstRunDismiss: "ไม่สนใจ",
         helpStartTitle: "เริ่มที่นี่: สามขั้นตอน",
         helpStart1: "เลือกแท็บที่ด้านบน: {tabs}.",
         helpStart2: "งั้น {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "ดีที่ได้รู้",
         helpTips1: "ปิดวิดเจ็ตและเครื่องหมายของมันออกจากแผนที่ เปิดอีกครั้งและพวกเขากลับมาจนกว่าคุณจะคลิก {clear}.",
         helpTips2: "การค้นหาใหม่แต่ละรายการ จะแทนที่เครื่องหมายจากตัวก่อนหน้า",
-        helpTips3: "กด Alt และคลิกที่ใด ๆ ในวิดเจ็ต เพื่อดูว่าคุณมีรุ่นใด"
+        helpTips3: "กด Alt และคลิกที่ใด ๆ ในวิดเจ็ต เพื่อดูว่าคุณมีรุ่นใด",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

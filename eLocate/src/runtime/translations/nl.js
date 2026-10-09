@@ -68,17 +68,17 @@ System.register([], function (e) {
         noTabsEnabled: "Elke tab in dit widget is uitgeschakeld. Zet minstens één adres, coördinaten of inspecteur weer aan in de widget-instellingen.",
         loading: "Bezig met laden",
         locating: "Localiseren, wacht even.",
-        helpTitle: "Help",
+        helpTitle: "Hulp",
         close: "Sluiten",
         helpIntro: "Vind een plaats op de kaart door zijn adres, door zijn coördinaten, of door op de kaart te klikken om het adres daar te krijgen.",
         helpSearchPlaceholder: "De gids doorzoeken (probeer \"adres\" of \"breedte\")",
         helpNoMatches: "Niets in de gids komt overeen met dat woord. Probeer een andere, of open de bovenstaande secties.",
         helpAnd: "en",
         helpOr: "Of",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nieuw hier?",
         firstRunBody: "Kies een tabblad bovenaan, typ een adres of coördinaten en klik op lokaliseren, en de plaats is gemarkeerd op de kaart.",
         firstRunHelpLink: "Open de gids.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Ingetrokken",
         helpStartTitle: "Begin hier: drie stappen",
         helpStart1: "Kies een tabblad bovenaan: {tabs}.",
         helpStart2: "Dan {actions}.",
@@ -114,7 +114,7 @@ System.register([], function (e) {
         helpResults2: "Klik op een resultaat om de kaart te verplaatsen en open de details.",
         helpResults3: "De x rechts van een resultaat neemt die weg. {clear} Neemt ze allemaal mee.",
         helpResultsAutoClose: "De details doos sluit vanzelf na een paar seconden. Hou de muis erover en hij blijft open.",
-        helpTroubleTitle: "Als er iets mis lijkt.",
+        helpTroubleTitle: "Als er iets mis lijkt",
         helpTroubleNoMap: "Het widget vraagt om een kaart: het is nog niet verbonden met een kaart. Vraag wie deze app heeft gebouwd om een kaart te kiezen in de widget-instellingen.",
         helpTroubleNoResults: "Geen resultaten gevonden: het adres is niet gevonden. Controleer de spelling, laat elke eenheid of suite nummer, en probeer het opnieuw.",
         helpTroubleExtent: "Geen resultaten gevonden met \"{limit}\" aangevinkt: het adres bevindt zich buiten het gebied dat de kaart toont. Ontkoppelen of uitzoomen, probeer het dan opnieuw.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Goed om te weten",
         helpTips1: "Sluit het widget en de markeringen verlaten de kaart. Open het opnieuw en ze komen terug, totdat je klikt {clear}.",
         helpTips2: "Elke nieuwe zoektocht vervangt de tekens van de vorige.",
-        helpTips3: "Houd Alt vast en klik overal in het widget om te zien welke versie je hebt."
+        helpTips3: "Houd Alt vast en klik overal in het widget om te zien welke versie je hebt.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

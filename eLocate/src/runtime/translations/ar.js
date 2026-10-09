@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "لا شيء في الدليل يطابق تلك الكلمة جرّبْ آخر، أَو يَفْتحُ الأقسامَ أعلاه.",
         helpAnd: "و",
         helpOr: "\"أو\"",
-        firstRunTitle: "New here?",
+        firstRunTitle: "جديد هنا؟",
         firstRunBody: "اختر شريطاً في الأعلى، اطبعي عنواناً أو إحداثيات ونقرة (لوكيت)، والمكان معلّم على الخريطة.",
-        firstRunHelpLink: "افتح الدليل",
-        firstRunDismiss: "Dismiss",
+        firstRunHelpLink: "افتح الدليل.",
+        firstRunDismiss: "الانصراف",
         helpStartTitle: "ابدأ هنا: ثلاث خطوات",
         helpStart1: "اختر ورقة في الأعلى {tabs}.",
         helpStart2: "ثم {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "من الجيد معرفة",
         helpTips1: "اغلق المستنقع و علاماته تترك الخريطة افتحه مجدداً و يعودون حتى تضغط {clear}.",
         helpTips2: "كل بحث جديد يحل محل العلامات من قبل",
-        helpTips3: "إحمل (ألت) وأضغط على أيّ مكان في الممسحة لترى أيّ نسخة لديك"
+        helpTips3: "إحمل (ألت) وأضغط على أيّ مكان في الممسحة لترى أيّ نسخة لديك",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

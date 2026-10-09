@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Нищо в ръководството не съвпада с тази дума. Опитайте друг, или отвори секциите по-горе.",
         helpAnd: "И",
         helpOr: "или",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Нова тук?",
         firstRunBody: "Изберете подпрозорец отгоре, напишете адрес или координати и кликнете Открийте и мястото е маркирано на картата.",
         firstRunHelpLink: "Отвори гидът.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Свободно",
         helpStartTitle: "Започнете от тук: три стъпки",
         helpStart1: "Изберете раздела отгоре: {tabs}.",
         helpStart2: "Тогава... {actions}.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Грешка при проверка на адреса: няма адрес близо до това място. Кликнете по-близо до улицата.",
         helpTroubleSpinner: "джаджата продължава да се върти: картата все още се зарежда. Изчакай малко и презареди страницата.",
         helpTroubleContact: "Още ли си заклещен? Свържете се с GIS Division и споменете подобрената локация джаджа и това приложение.",
-        helpTipsTitle: "Добре е да го знам.",
+        helpTipsTitle: "Добре е да го знам",
         helpTips1: "Затворете джаджата и нейните знаци напускат картата. Отвори го отново и те ще се върнат, докато не кликнеш {clear}.",
         helpTips2: "Всяко ново търсене заменя белезите от предишния.",
-        helpTips3: "Задръжте Alt и кликнете навсякъде в джаджата, за да видите коя версия имате."
+        helpTips3: "Задръжте Alt и кликнете навсякъде в джаджата, за да видите коя версия имате.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

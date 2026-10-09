@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nada en la guía coincide con esa palabra. Pruebe otro, o abra las secciones anteriores.",
         helpAnd: "y",
         helpOr: "or",
-        firstRunTitle: "New here?",
+        firstRunTitle: "¿Eres nuevo aquí?",
         firstRunBody: "Elija una pestaña en la parte superior, escriba una dirección o coordenadas y haga clic en Localizar, y el lugar está marcado en el mapa.",
         firstRunHelpLink: "Abre el guía.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Desestimación",
         helpStartTitle: "Empieza aquí: tres pasos",
         helpStart1: "Elige una pestaña en la parte superior: {tabs}.",
         helpStart2: "Entonces... {actions}.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Dirección Inspección Fallado: no hay dirección cercana a ese lugar. Haga clic más cerca de una calle.",
         helpTroubleSpinner: "El widget sigue girando: el mapa todavía está cargando. Dale un momento, luego vuelve a cargar la página.",
         helpTroubleContact: "¿Sigues atrapado? Contacta con la División GIS y menciona el widget Enhanced Locate y esta aplicación.",
-        helpTipsTitle: "Es bueno saberlo.",
+        helpTipsTitle: "Es bueno saberlo",
         helpTips1: "Cierre el widget y sus marcas dejan el mapa. Ábrelo otra vez y vuelven, hasta que haga clic {clear}.",
         helpTips2: "Cada nueva búsqueda reemplaza las marcas de la anterior.",
-        helpTips3: "Mantenga Alt y haga clic en cualquier lugar del widget para ver qué versión tiene."
+        helpTips3: "Mantenga Alt y haga clic en cualquier lugar del widget para ver qué versión tiene.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

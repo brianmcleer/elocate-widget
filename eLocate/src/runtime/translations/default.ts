@@ -149,5 +149,7 @@ export default {
   helpTipsTitle: 'Good to know',
   helpTips1: 'Close the widget and its marks leave the map. Open it again and they come back, until you click {clear}.',
   helpTips2: 'Each new search replaces the marks from the one before.',
-  helpTips3: 'Hold Alt and click anywhere in the widget to see which version you have.'
+  helpTips3: 'Hold Alt and click anywhere in the widget to see which version you have.',
+  unknownError: 'unknown error',
+  unserializableError: 'unserializable error'
 }

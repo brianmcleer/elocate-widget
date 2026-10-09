@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nic w przewodniku nie pasuje do tego słowa. Spróbuj innego, albo otwórz powyższe sekcje.",
         helpAnd: "i aplikacja",
         helpOr: "or",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nowy?",
         firstRunBody: "Wybierz kartę na górze, wpisz adres lub współrzędne i kliknij Zlokalizuj, a miejsce jest zaznaczone na mapie.",
         firstRunHelpLink: "Otwórz przewodnik.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Rozejść się",
         helpStartTitle: "Zacznij tutaj: trzy kroki",
         helpStart1: "Wybierz kartę na górze: {tabs}.",
         helpStart2: "Wtedy {actions}.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Adres Inspection Failed: nie ma adresu w pobliżu tego miejsca. Kliknij bliżej ulicy.",
         helpTroubleSpinner: "Widget wciąż wiruje: mapa wciąż się ładuje. Daj mu chwilę, a potem przeładuj stronę.",
         helpTroubleContact: "Nadal utknąłeś? Skontaktuj się z GIS Division i wspomnij o rozszerzonym widżecie lokalizacji i tej aplikacji.",
-        helpTipsTitle: "Dobrze wiedzieć.",
+        helpTipsTitle: "Dobrze wiedzieć",
         helpTips1: "Zamknij widżet, a jego znaki opuszczą mapę. Otwórz jeszcze raz, a wrócą, aż klikniesz {clear}.",
         helpTips2: "Każde nowe wyszukiwanie zastępuje znaki z poprzedniego.",
-        helpTips3: "Przytrzymaj Alt i kliknij gdziekolwiek w widżecie, aby zobaczyć, która wersja masz."
+        helpTips3: "Przytrzymaj Alt i kliknij gdziekolwiek w widżecie, aby zobaczyć, która wersja masz.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

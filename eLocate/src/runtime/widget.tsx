@@ -21,6 +21,16 @@ import {
 } from 'jimu-ui'
 import { CalciteIcon } from 'calcite-components'
 import defaultMessages from './translations/default'
+let __dmIntl: any = null
+/** defaultMessages, but each string comes from the app language when the widget intl has it. */
+const __dm: any = new Proxy(defaultMessages as any, {
+  get: (tgt: any, k: any) => {
+    const v = tgt[k]
+    if (typeof k !== 'string' || typeof v !== 'string') return v
+    const m = __dmIntl && __dmIntl.messages ? __dmIntl.messages[k] : undefined
+    return typeof m === 'string' ? m : v
+  }
+})
 import { JimuMapView, JimuMapViewComponent } from 'jimu-arcgis'
 import { getStyle } from './lib/style'
 import * as coords from './lib/coords'
@@ -44,6 +54,7 @@ import AddressCandidate from 'esri/rest/support/AddressCandidate'
 import PictureMarkerSymbol from 'esri/symbols/PictureMarkerSymbol'
 import SimpleMarkerSymbol from 'esri/symbols/SimpleMarkerSymbol'
 import * as reactiveUtils from 'esri/core/reactiveUtils'
+import { __setIntl } from './i18n-t'
 
 type TabId = 'addresslabel' | 'coordslabel' | 'addressinsplabel' | 'resultslabel'
 
@@ -1034,16 +1045,16 @@ export default class Widget extends React.PureComponent<AllWidgetProps<IMConfig>
       autoClose: this.autoCloseNum !== Number.NEGATIVE_INFINITY,
       // Names as the widget shows them, minus a trailing colon or full stop so they read inside a sentence.
       labels: {
-        address: defaultMessages.addresslabel,
-        coordinates: defaultMessages.coordslabel,
-        inspector: defaultMessages.addressinsplabel,
-        results: defaultMessages.resultslabel,
-        locate: defaultMessages.locate,
-        clear: defaultMessages.clear,
-        units: defaultMessages.coordUnitLbl.replace(/[:.]\s*$/, ''),
-        example: defaultMessages.example.replace(/[:.]\s*$/, ''),
-        limit: defaultMessages.limittomapextent.replace(/[:.]\s*$/, ''),
-        inspectButton: defaultMessages.revgeocodetip
+        address: __dm.addresslabel,
+        coordinates: __dm.coordslabel,
+        inspector: __dm.addressinsplabel,
+        results: __dm.resultslabel,
+        locate: __dm.locate,
+        clear: __dm.clear,
+        units: __dm.coordUnitLbl.replace(/[:.]\s*$/, ''),
+        example: __dm.example.replace(/[:.]\s*$/, ''),
+        limit: __dm.limittomapextent.replace(/[:.]\s*$/, ''),
+        inspectButton: __dm.revgeocodetip
       }
     }
   }
@@ -1051,6 +1062,8 @@ export default class Widget extends React.PureComponent<AllWidgetProps<IMConfig>
   // ── Render ─────────────────────────────────────────────────────────────────
 
   render () {
+    __setIntl((this.props as any).intl)
+    __dmIntl = (this.props as any).intl
     const {
       messageOpen, messageTitle, messageBody, showBusy, selectedUnits,
       xValue, yValue, singleValue, exampleX, exampleY, exampleSingle, revBtnActive, showClear, addressInputValue, showProgress,

@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Ingenting i guiden matchar det ordet. Prova en annan, eller öppna avsnitten ovan.",
         helpAnd: "och",
         helpOr: "Eller",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Ny här?",
         firstRunBody: "Välj en flik högst upp, skriv en adress eller koordinater och klicka på Leta, och platsen är markerad på kartan.",
         firstRunHelpLink: "Öppna guiden.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Avfärda",
         helpStartTitle: "Börja här: tre steg",
         helpStart1: "Välj en flik högst upp: {tabs}.",
         helpStart2: "och sedan {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Bra att veta",
         helpTips1: "Stäng widgeten och dess märken lämnar kartan. Öppna den igen och de kommer tillbaka tills du klickar {clear}.",
         helpTips2: "Varje ny sökning ersätter märken från en tidigare.",
-        helpTips3: "Håll Alt och klicka var som helst i widgeten för att se vilken version du har."
+        helpTips3: "Håll Alt och klicka var som helst i widgeten för att se vilken version du har.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

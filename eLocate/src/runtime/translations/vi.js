@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Không có gì phù hợp với từ đó. Thử cái khác, hoặc mở phần trên.",
         helpAnd: "và",
         helpOr: "Hoặc",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Mới đến à?",
         firstRunBody: "Chọn một trang ở phía trên, gõ địa chỉ hay tọa độ rồi nhấn vào, và địa điểm được đánh dấu trên bản đồ.",
         firstRunHelpLink: "Mở sách hướng dẫn ra.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Giải tán!",
         helpStartTitle: "Bắt đầu ở đây: ba bước",
         helpStart1: "Chọn một thẻ ở trên cùng: {tabs}.",
         helpStart2: "Sau đó {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Rất vui được biết",
         helpTips1: "Đóng ô điều khiển và các dấu của nó để lại bản đồ. Mở nó ra và chúng quay lại, cho đến khi bạn click vào {clear}.",
         helpTips2: "Mỗi tìm kiếm mới thay thế các dấu hiệu từ một trước đó.",
-        helpTips3: "Giữ Alt và nhấn vào bất cứ đâu trong ô điều khiển để xem phiên bản bạn có."
+        helpTips3: "Giữ Alt và nhấn vào bất cứ đâu trong ô điều khiển để xem phiên bản bạn có.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

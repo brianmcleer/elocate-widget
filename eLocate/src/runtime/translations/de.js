@@ -52,7 +52,7 @@ System.register([], function (e) {
         fmtDDM: "Grad Dezimalminuten",
         fmtDMS: "Grad, Minuten, Sekunden",
         fmtMGRS: "MGRS",
-        fmtUSNG: "USNG",
+        fmtUSNG: "NG",
         fmtUTM: "UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "Karte X und Y",
@@ -62,7 +62,7 @@ System.register([], function (e) {
         fmtDDMShort: "Lat Lon (DDM)",
         fmtDMSShort: "Lat Lon (DMS)",
         fmtMGRSShort: "MGRS",
-        fmtUSNGShort: "USNG",
+        fmtUSNGShort: "NG",
         fmtUTMShort: "UTM",
         noMapConnected: "Dieses Widget ist noch nicht mit einer Karte verbunden. Öffnen Sie die Widget-Einstellungen und wählen Sie ein Map-Widget.",
         noTabsEnabled: "Jeder Tab in diesem Widget ist ausgeschaltet. Schalten Sie mindestens eine Adresse, Koordinaten oder Inspektor in den Widget-Einstellungen wieder ein.",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nichts im Guide passt zu diesem Wort. Versuchen Sie es mit einem anderen oder öffnen Sie die obigen Abschnitte.",
         helpAnd: "und",
         helpOr: "oder",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Neu hier?",
         firstRunBody: "Wählen Sie oben einen Tab, geben Sie eine Adresse oder Koordinaten ein und klicken Sie auf Suchen, und der Ort ist auf der Karte markiert.",
         firstRunHelpLink: "Öffne den Guide.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Entlassung",
         helpStartTitle: "Beginnen Sie hier: drei Schritte",
         helpStart1: "Wählen Sie einen Tab oben: {tabs}.",
         helpStart2: "Dann {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Gut zu wissen",
         helpTips1: "Schließen Sie das Widget und seine Markierungen verlassen die Karte. Öffnen Sie es wieder und sie kommen zurück, bis Sie klicken {clear}.",
         helpTips2: "Jede neue Suche ersetzt die Markierungen von der vorherigen.",
-        helpTips3: "Halten Sie Alt und klicken Sie überall im Widget, um zu sehen, welche Version Sie haben."
+        helpTips3: "Halten Sie Alt und klicken Sie überall im Widget, um zu sehen, welche Version Sie haben.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

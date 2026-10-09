@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nič v sprievodcovi nezodpovedá tomu slovu. Skúste iné, alebo otvoriť časti vyššie.",
         helpAnd: "a",
         helpOr: "alebo",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Tu nový?",
         firstRunBody: "Vyberte kartu hore, zadajte adresu alebo súradnice a kliknite na položku Locate, a miesto je označené na mape.",
         firstRunHelpLink: "Otvorte sprievodcu.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Odchod",
         helpStartTitle: "Začnite tu: tri kroky",
         helpStart1: "Vyberte kartu hore: {tabs}.",
         helpStart2: "Potom {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "Dobré vedieť",
         helpTips1: "Zavrieť widget a jeho značky opustiť mapu. Otvorte to znova a vrátia sa, kým kliknete. {clear}.",
         helpTips2: "Každé nové vyhľadávanie nahrádza značky z predchádzajúceho.",
-        helpTips3: "Držte Alt a kliknite kdekoľvek na widget vidieť, ktorá verzia máte."
+        helpTips3: "Držte Alt a kliknite kdekoľvek na widget vidieť, ktorá verzia máte.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

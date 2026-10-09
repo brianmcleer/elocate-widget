@@ -52,7 +52,7 @@ System.register([], function (e) {
         fmtDDM: "Grade zecimale minute",
         fmtDMS: "Grade minute secunde",
         fmtMGRS: "MGRS",
-        fmtUSNG: "USNG",
+        fmtUSNG: "UȘĂ",
         fmtUTM: "UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "Harta X și Y",
@@ -62,7 +62,7 @@ System.register([], function (e) {
         fmtDDMShort: "Lat Lon (DMD)",
         fmtDMSShort: "Lat Lon (DMS)",
         fmtMGRSShort: "MGRS",
-        fmtUSNGShort: "USNG",
+        fmtUSNGShort: "UȘĂ",
         fmtUTMShort: "UTM",
         noMapConnected: "Acest widget nu este conectat la o hartă încă. Deschideți setările widget și alegeți un widget hartă.",
         noTabsEnabled: "Fiecare filă din acest widget este oprit. Reporniți cel puțin o adresă, coordonate sau inspector din nou în setările widget.",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Nimic din ghid nu se potriveşte cu acest cuvânt. Încearcă altul, sau deschide secţiunile de mai sus.",
         helpAnd: "și",
         helpOr: "Sau",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Nou aici?",
         firstRunBody: "Alege o filă în partea de sus, tastați o adresă sau coordonate și faceți clic pe Locate, iar locul este marcat pe hartă.",
         firstRunHelpLink: "Deschide ghidul.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Liber",
         helpStartTitle: "Începe aici: trei pași",
         helpStart1: "Alege o filă în partea de sus: {tabs}.",
         helpStart2: "Atunci {actions}.",
@@ -123,10 +123,12 @@ System.register([], function (e) {
         helpTroubleInspect: "Inspecția adresei a eșuat: nu există nicio adresă aproape de acel loc. Clic mai aproape de o stradă.",
         helpTroubleSpinner: "Widgetul continuă să se învârtă: harta încă se încarcă. Dă-l un moment, apoi reîncărcați pagina.",
         helpTroubleContact: "Încă blocat? Contactați divizia GIS și menționați widget-ul de localizare îmbunătățită și această aplicație.",
-        helpTipsTitle: "E bine de ştiut.",
+        helpTipsTitle: "E bine de ştiut",
         helpTips1: "Închideți widget-ul și semnele sale lasă harta. Deschide-l din nou și se întorc, până când faceți clic {clear}.",
         helpTips2: "Fiecare nouă căutare înlocuiește semnele de la cel dinainte.",
-        helpTips3: "Țineți Alt și faceți clic oriunde în widget pentru a vedea ce versiune aveți."
+        helpTips3: "Țineți Alt și faceți clic oriunde în widget pentru a vedea ce versiune aveți.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

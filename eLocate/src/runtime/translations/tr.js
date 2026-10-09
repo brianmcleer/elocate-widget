@@ -52,7 +52,7 @@ System.register([], function (e) {
         fmtDDM: "Derece ondalık dakika",
         fmtDMS: "Derece dakika saniye",
         fmtMGRS: "MGRS",
-        fmtUSNG: "USNG",
+        fmtUSNG: "ABD",
         fmtUTM: "UTM",
         fmtXYShort: "X, Y",
         fmtXYMap: "Map X ve Y",
@@ -62,7 +62,7 @@ System.register([], function (e) {
         fmtDDMShort: "Lat Lon (DDM)",
         fmtDMSShort: "Lat Lon (DMS)",
         fmtMGRSShort: "MGRS",
-        fmtUSNGShort: "USNG",
+        fmtUSNGShort: "ABD",
         fmtUTMShort: "UTM",
         noMapConnected: "Bu widget henüz bir haritaya bağlı değildir. Widget ayarlarını açın ve bir Map widget seçin.",
         noTabsEnabled: "Bu penceredeki her sekme kapalıdır. En azından bir Adres, koordinatlar veya Inspector'un widget ayarlarında geri dön.",
@@ -75,10 +75,10 @@ System.register([], function (e) {
         helpNoMatches: "Rehberde hiçbir şey bu kelimeyi maçları. Başka bir deneyin veya yukarıdaki bölümleri açın.",
         helpAnd: "ve",
         helpOr: "veya",
-        firstRunTitle: "New here?",
+        firstRunTitle: "Yeni burada?",
         firstRunBody: "Üstte bir sekme seçin, bir adres veya koordinatlar ve Locate'ye tıklayın ve yer haritada işaretlenir.",
         firstRunHelpLink: "Rehberi açın.",
-        firstRunDismiss: "Dismiss",
+        firstRunDismiss: "Başarısızlık",
         helpStartTitle: "Buraya başlayın: Üç adım",
         helpStart1: "En üstte bir sekme seçin: {tabs}.",
         helpStart2: "Sonra {actions}.",
@@ -126,7 +126,9 @@ System.register([], function (e) {
         helpTipsTitle: "İyi bilmek",
         helpTips1: "Pencereyi kapat ve işaretleri haritayı terk eder. Tekrar açın ve geri dönüyorlar, tıklamanıza kadar {clear}.",
         helpTips2: "Her yeni arama, öncekilerden gelen işaretleri değiştirir.",
-        helpTips3: "Alt tutun ve sahip olduğunuz sürümü görmek için bir yere tıklayın."
+        helpTips3: "Alt tutun ve sahip olduğunuz sürümü görmek için bir yere tıklayın.",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

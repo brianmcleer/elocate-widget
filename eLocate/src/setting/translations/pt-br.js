@@ -56,7 +56,7 @@ System.register([], function (e) {
         enterUrl: "Digite o URL de um GeocodeServer",
         invalidUrlMessage: "Esta URL não é um serviço de geocódigo que o Experience Builder pode ler.",
         helpSection: "Guia de ajuda.",
-        showHelp: "Mostre guia de ajuda.",
+        showHelp: "Mostre guia de ajuda",
         showHelpTip: "Mostra o botão de ponto de interrogação que abre o guia de ajuda in-widget, e a dica de primeira execução.",
         coordFormat: "Formato",
         fmtXY: "X e Y",
