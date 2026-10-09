@@ -117,7 +117,7 @@ System.register([], function (e) {
         wkidValidNoName: "The projection engine supports this WKID.",
         datumTransform: "Datumska transformacija",
         transformAuto: "Automatic (best for the map area)",
-        transformNone: "Ništa",
+        transformNone: "Nijedan",
         transformCustom: "Custom (from an older configuration)",
         transformHint: "Used between this coordinate system and WGS84. Automatic picks the best equation-based transformation for the area of the map.",
         inverse: "inverse",
