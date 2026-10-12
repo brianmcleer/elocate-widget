@@ -123,7 +123,7 @@ System.register([], function (e) {
         helpTroubleInspect: "Neuspjela inspekcija adrese: nema adrese u blizini tog mjesta. Kliknite bliže ulici.",
         helpTroubleSpinner: "Grafički element se stalno vrti: mapa se još uvijek učitava. Daj joj trenutak, a zatim ponovo učitaj stranicu.",
         helpTroubleContact: "Još uvijek zapeo? Kontaktirajte GIS diviziju i spomenite poboljšani lokacijski grafički element i ovu aplikaciju.",
-        helpTipsTitle: "Dobro je znati.",
+        helpTipsTitle: "Dobro je znati",
         helpTips1: "Zatvori grafički element i njegovi znakovi napuštaju mapu. Otvori ga ponovo i oni se vraćaju, dok ne klikneš {clear}.",
         helpTips2: "Svaka nova pretraga zamjenjuje oznake od one prije.",
         helpTips3: "Zadrži Alt i kliknite bilo gdje u grafičkom elementu da vidite koju verziju imate.",

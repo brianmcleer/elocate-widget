@@ -123,7 +123,7 @@ System.register([], function (e) {
         helpTroubleInspect: "Neuspjela inspekcija adrese: nema adrese u blizini tog mjesta. Kliknite bliže ulici.",
         helpTroubleSpinner: "Grafički element se stalno vrti: karta se još učitava. Dajte joj trenutak, a zatim ponovno učitaj stranicu.",
         helpTroubleContact: "Još uvijek zaglavi? Kontaktirajte GIS Division i spomenuti poboljšano Locate widget i ovu aplikaciju.",
-        helpTipsTitle: "Dobro je znati.",
+        helpTipsTitle: "Dobro je znati",
         helpTips1: "Zatvori widget i njegovi znakovi ostaviti kartu. Otvorite ga opet i oni se vraćaju, dok ne kliknete {clear}.",
         helpTips2: "Svaka nova pretraga zamjenjuje oznake iz one prije.",
         helpTips3: "Držite Alt i kliknite bilo gdje u widgetu da vidite koju verziju imate.",

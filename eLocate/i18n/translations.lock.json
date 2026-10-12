@@ -1095,14 +1095,14 @@
           }
         },
         "bs": {
-          "file": "b1f4e70aeb88",
+          "file": "f4498122b235",
           "counts": {
-            "esri": 21,
+            "esri": 30,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 102,
+            "machine": 93,
             "stale": 0,
             "missing": 0
           },
@@ -1352,35 +1352,10 @@
               "src": "machine",
               "h": "5a1907b10cca"
             },
-            "helpNoMatches": {
-              "t": "Ništa u vodiču ne odgovara toj riječi.",
-              "src": "machine",
-              "h": "3fe179f75330"
-            },
-            "firstRunTitle": {
-              "t": "Novi ovdje?",
-              "src": "machine",
-              "h": "b81f2e17e001"
-            },
             "firstRunBody": {
               "t": "Izaberite karticu na vrhu, unesite adresu ili koordinate i kliknite na Locate, a mjesto je označeno na karti.",
               "src": "machine",
               "h": "06a3a086e1d2"
-            },
-            "firstRunHelpLink": {
-              "t": "Otvori vodič.",
-              "src": "machine",
-              "h": "2447dd6134ea"
-            },
-            "firstRunDismiss": {
-              "t": "Otpust",
-              "src": "machine",
-              "h": "70afe9eff3f2"
-            },
-            "helpStartTitle": {
-              "t": "Počnite ovdje: tri koraka",
-              "src": "machine",
-              "h": "789320b4831d"
             },
             "helpStart1": {
               "t": "Izaberi karticu na vrhu: {tabs}.",
@@ -1542,11 +1517,6 @@
               "src": "machine",
               "h": "d3e188da4f93"
             },
-            "helpTroubleTitle": {
-              "t": "Ako nešto nije u redu",
-              "src": "machine",
-              "h": "6f7fec3ff1e0"
-            },
             "helpTroubleNoMap": {
               "t": "Grafički element traži kartu: još nije spojen na jednu. Pitajte onoga ko je napravio ovu aplikaciju da izabere mapu u postavkama grafičkog elementa.",
               "src": "machine",
@@ -1587,11 +1557,6 @@
               "src": "machine",
               "h": "7b747001f7d8"
             },
-            "helpTipsTitle": {
-              "t": "Dobro je znati.",
-              "src": "machine",
-              "h": "79fc372dc790"
-            },
             "helpTips1": {
               "t": "Zatvori grafički element i njegovi znakovi napuštaju mapu. Otvori ga ponovo i oni se vraćaju, dok ne klikneš {clear}.",
               "src": "machine",
@@ -1606,16 +1571,6 @@
               "t": "Zadrži Alt i kliknite bilo gdje u grafičkom elementu da vidite koju verziju imate.",
               "src": "machine",
               "h": "2f206b510364"
-            },
-            "unknownError": {
-              "t": "nepoznata greška",
-              "src": "machine",
-              "h": "af6321ca7a8b"
-            },
-            "unserializableError": {
-              "t": "Neserijalizacijska greška",
-              "src": "machine",
-              "h": "76e73551597a"
             }
           }
         },
@@ -6425,14 +6380,14 @@
           }
         },
         "hr": {
-          "file": "6ec04356130c",
+          "file": "b9fcb0520f14",
           "counts": {
-            "esri": 21,
+            "esri": 30,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 102,
+            "machine": 93,
             "stale": 0,
             "missing": 0
           },
@@ -6682,35 +6637,10 @@
               "src": "machine",
               "h": "5a1907b10cca"
             },
-            "helpNoMatches": {
-              "t": "Ništa u vodiču ne odgovara toj riječi. Pokušajte drugi, ili otvorite dijelove iznad.",
-              "src": "machine",
-              "h": "3fe179f75330"
-            },
-            "firstRunTitle": {
-              "t": "Novi ovdje?",
-              "src": "machine",
-              "h": "b81f2e17e001"
-            },
             "firstRunBody": {
               "t": "Odaberite karticu na vrhu, upišite adresu ili koordinate i kliknite Locate, a mjesto je označeno na karti.",
               "src": "machine",
               "h": "06a3a086e1d2"
-            },
-            "firstRunHelpLink": {
-              "t": "Otvori vodič.",
-              "src": "machine",
-              "h": "2447dd6134ea"
-            },
-            "firstRunDismiss": {
-              "t": "Otpust",
-              "src": "machine",
-              "h": "70afe9eff3f2"
-            },
-            "helpStartTitle": {
-              "t": "Počnite ovdje: tri koraka",
-              "src": "machine",
-              "h": "789320b4831d"
             },
             "helpStart1": {
               "t": "Odaberite karticu na vrhu: {tabs}.",
@@ -6872,11 +6802,6 @@
               "src": "machine",
               "h": "d3e188da4f93"
             },
-            "helpTroubleTitle": {
-              "t": "Ako nešto izgleda loše",
-              "src": "machine",
-              "h": "6f7fec3ff1e0"
-            },
             "helpTroubleNoMap": {
               "t": "Grafički element traži kartu: još nije spojen na jednu. Pitajte onoga tko je izgradio ovu aplikaciju da izabere kartu u postavkama widgeta.",
               "src": "machine",
@@ -6917,11 +6842,6 @@
               "src": "machine",
               "h": "7b747001f7d8"
             },
-            "helpTipsTitle": {
-              "t": "Dobro je znati.",
-              "src": "machine",
-              "h": "79fc372dc790"
-            },
             "helpTips1": {
               "t": "Zatvori widget i njegovi znakovi ostaviti kartu. Otvorite ga opet i oni se vraćaju, dok ne kliknete {clear}.",
               "src": "machine",
@@ -6936,16 +6856,6 @@
               "t": "Držite Alt i kliknite bilo gdje u widgetu da vidite koju verziju imate.",
               "src": "machine",
               "h": "2f206b510364"
-            },
-            "unknownError": {
-              "t": "nepoznata greška",
-              "src": "machine",
-              "h": "af6321ca7a8b"
-            },
-            "unserializableError": {
-              "t": "Neserijalizacijska greška",
-              "src": "machine",
-              "h": "76e73551597a"
             }
           }
         },
@@ -14650,14 +14560,14 @@
           }
         },
         "sr": {
-          "file": "58e0adc574b0",
+          "file": "142cc3bf878d",
           "counts": {
-            "esri": 22,
+            "esri": 31,
             "esri-check": 4,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 100,
+            "machine": 91,
             "stale": 0,
             "missing": 0
           },
@@ -14897,35 +14807,10 @@
               "src": "machine",
               "h": "5a1907b10cca"
             },
-            "helpNoMatches": {
-              "t": "Ništa u vodièu ne odgovara toj reèi.",
-              "src": "machine",
-              "h": "3fe179f75330"
-            },
-            "firstRunTitle": {
-              "t": "Novi ovde?",
-              "src": "machine",
-              "h": "b81f2e17e001"
-            },
             "firstRunBody": {
               "t": "Odaberite karticu na vrhu, ukucajte adresu ili koordinate i kliknite na Locate, a mesto je obeleženo na mapi.",
               "src": "machine",
               "h": "06a3a086e1d2"
-            },
-            "firstRunHelpLink": {
-              "t": "Otvori vodiè.",
-              "src": "machine",
-              "h": "2447dd6134ea"
-            },
-            "firstRunDismiss": {
-              "t": "Otpust.",
-              "src": "machine",
-              "h": "70afe9eff3f2"
-            },
-            "helpStartTitle": {
-              "t": "Poènite ovde: tri koraka.",
-              "src": "machine",
-              "h": "789320b4831d"
             },
             "helpStart1": {
               "t": "Izaberi karticu na vrhu: {tabs}.",
@@ -15087,11 +14972,6 @@
               "src": "machine",
               "h": "d3e188da4f93"
             },
-            "helpTroubleTitle": {
-              "t": "Ako nešto nije u redu",
-              "src": "machine",
-              "h": "6f7fec3ff1e0"
-            },
             "helpTroubleNoMap": {
               "t": "Grafički element traži mapu: još nije spojen na jednu. Pitajte ko je napravio ovu aplikaciju da izabere mapu u postavkama grafičkog elementa.",
               "src": "machine",
@@ -15132,11 +15012,6 @@
               "src": "machine",
               "h": "7b747001f7d8"
             },
-            "helpTipsTitle": {
-              "t": "Dobro je znati.",
-              "src": "machine",
-              "h": "79fc372dc790"
-            },
             "helpTips1": {
               "t": "Zatvori vidžet i njegovi tragovi napuštaju mapu. Otvori je ponovo i oni se vraćaju, dok ne klikneš {clear}.",
               "src": "machine",
@@ -15151,16 +15026,6 @@
               "t": "Držite Alt i kliknite bilo gde u vidžetu da vidite koju verziju imate.",
               "src": "machine",
               "h": "2f206b510364"
-            },
-            "unknownError": {
-              "t": "nepoznata greška",
-              "src": "machine",
-              "h": "af6321ca7a8b"
-            },
-            "unserializableError": {
-              "t": "Neserijalizacijska greška",
-              "src": "machine",
-              "h": "76e73551597a"
             }
           }
         },
@@ -20234,12 +20099,12 @@
         "bs": {
           "file": "d5b18bae70ce",
           "counts": {
-            "esri": 21,
+            "esri": 22,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 106,
+            "machine": 105,
             "stale": 0,
             "missing": 2
           },
@@ -20448,11 +20313,6 @@
               "t": "Vodič kroz pomoć",
               "src": "machine",
               "h": "d299aafb825a"
-            },
-            "showHelp": {
-              "t": "Pokaži vodič za pomoć",
-              "src": "machine",
-              "h": "03e9f0b81336"
             },
             "showHelpTip": {
               "t": "Pokazuje dugme sa znakom pitanja koje otvara vodič pomoći unutar widgeta i nagovještaj koji je prvi pokrenut.",
@@ -26214,12 +26074,12 @@
         "hr": {
           "file": "dfa40b910bf9",
           "counts": {
-            "esri": 21,
+            "esri": 22,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 107,
+            "machine": 106,
             "stale": 0,
             "missing": 1
           },
@@ -26428,11 +26288,6 @@
               "t": "Vodič za pomoć",
               "src": "machine",
               "h": "d299aafb825a"
-            },
-            "showHelp": {
-              "t": "Prikaži vodič pomoći",
-              "src": "machine",
-              "h": "03e9f0b81336"
             },
             "showHelpTip": {
               "t": "Prikazuje gumb s upitnikom koji otvara vodič za pomoć u widgetu, i nagovještaj za prvu runu.",
@@ -35444,12 +35299,12 @@
         "sr": {
           "file": "85591f7c615c",
           "counts": {
-            "esri": 22,
+            "esri": 23,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 105,
+            "machine": 104,
             "stale": 0,
             "missing": 1
           },
@@ -35658,11 +35513,6 @@
               "t": "Uputstvo za pomoć",
               "src": "machine",
               "h": "d299aafb825a"
-            },
-            "showHelp": {
-              "t": "Pokaži vodič za pomoć",
-              "src": "machine",
-              "h": "03e9f0b81336"
             },
             "showHelpTip": {
               "t": "Pokazuje dugme sa znakom pitanja koje otvara vodiè za pomoć u vidžetu, i prvi nagoveštaj.",
