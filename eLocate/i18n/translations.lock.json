@@ -1095,18 +1095,529 @@
           }
         },
         "bs": {
-          "file": "1826c71080ee",
+          "file": "b1f4e70aeb88",
           "counts": {
             "esri": 21,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 102,
             "stale": 0,
-            "missing": 102
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Unaprijeđeno lociranje",
+              "src": "machine",
+              "h": "d881832ed150"
+            },
+            "zoom2message": {
+              "t": "Kliknite da uvećate za rezultat",
+              "src": "machine",
+              "h": "c943fb44eccb"
+            },
+            "addressinsplabel": {
+              "t": "Inspektore.",
+              "src": "machine",
+              "h": "8222c902ae07"
+            },
+            "coordDescLabel": {
+              "t": "Unesite koordinate:",
+              "src": "machine",
+              "h": "8f42d9de1880"
+            },
+            "reverseDescLabel": {
+              "t": "Koristi alat za pregled adrese da klikneš na mapu i lociraš adresu.",
+              "src": "machine",
+              "h": "81d48b5343f6"
+            },
+            "removeresultmessage": {
+              "t": "Ukloni rezultat",
+              "src": "machine",
+              "h": "d3ffecf61a48"
+            },
+            "resultsfoundlabel": {
+              "t": "Rezultati pronađeni:",
+              "src": "machine",
+              "h": "d5e4c3e57fee"
+            },
+            "resultsLayerTitle": {
+              "t": "Poboljšani rezultati lociranja",
+              "src": "machine",
+              "h": "a69f26581cd4"
+            },
+            "widgetversion": {
+              "t": "Unaprijeđeni podaci o verziji Widgeta",
+              "src": "machine",
+              "h": "a628d482fc16"
+            },
+            "widgetverstr": {
+              "t": "Verzija grafičkog elementa",
+              "src": "machine",
+              "h": "056c4b09dfe2"
+            },
+            "wabversionmsg": {
+              "t": "Widget je dizajniran za pokretanje u verziji Experience Builder",
+              "src": "machine",
+              "h": "b0c8a6c2df3b"
+            },
+            "revgeocodetip": {
+              "t": "Obratite pažnju na adresu po tački",
+              "src": "machine",
+              "h": "07a1b7a3bdd7"
+            },
+            "example": {
+              "t": "Primjer:",
+              "src": "machine",
+              "h": "c63737abd734"
+            },
+            "drawpointtooltip": {
+              "t": "_Lokacija:",
+              "src": "machine",
+              "h": "0b9e933e4987"
+            },
+            "longitude": {
+              "t": "Dužina (X)",
+              "src": "machine",
+              "h": "a236cc673be5"
+            },
+            "latitude": {
+              "t": "Širina",
+              "src": "machine",
+              "h": "cced591da02b"
+            },
+            "llcoordinates": {
+              "t": "Lat Lon Koordinate",
+              "src": "machine",
+              "h": "7aafa3f16e2e"
+            },
+            "exampleClickTooltip": {
+              "t": "Kliknite da dodate koordinate primjera iznad",
+              "src": "machine",
+              "h": "b3f8f3e9f871"
+            },
+            "score": {
+              "t": "Rezultat",
+              "src": "machine",
+              "h": "489f4877244a"
+            },
+            "locatorissue": {
+              "t": "GeocodeServer izdanje",
+              "src": "machine",
+              "h": "1d07608355e3"
+            },
+            "locatorissuemessage": {
+              "t": "Servis geocode nije mogao biti pročitan ili nema polje za adresu jedne linije. Kartica Adrese je skrivena dok nije postavljena u postavkama grafičkog elementa.",
+              "src": "machine",
+              "h": "1eebf03c74a7"
+            },
+            "limittomapextent": {
+              "t": "Ograniči pretragu adrese u mjerilu mape.",
+              "src": "machine",
+              "h": "d9cc196eff24"
+            },
+            "reversegeocodefailtitle": {
+              "t": "Inspekcija adrese nije uspjela",
+              "src": "machine",
+              "h": "bd0b1b838bfc"
+            },
+            "reversegeocodefailmsg": {
+              "t": "Nisam mogao pronaći adresu na kliknutu lokaciju. Molim pokušajte ponovo.",
+              "src": "machine",
+              "h": "1550832fd396"
+            },
+            "searchError": {
+              "t": "Neuspjela pretraga adrese. Provjerite geocode servis u postavkama grafičkog elementa, zatim pokušajte ponovo.",
+              "src": "machine",
+              "h": "d2eec6648773"
+            },
+            "projectissue": {
+              "t": "Dogodilo se pitanje prilikom projiciranja lokacije.",
+              "src": "machine",
+              "h": "38bc86b84bcb"
+            },
+            "exampleClick": {
+              "t": "Kliknite da pomjerite vrijednosti primjera u ulazna polja",
+              "src": "machine",
+              "h": "f4547d1d3bc6"
+            },
+            "coordsInvalid": {
+              "t": "Te koordinate nisu mogle biti pročitane. Kliknite na primjer ispod okvira da vidite format koji ova jedinica očekuje.",
+              "src": "machine",
+              "h": "e232741ad3e5"
+            },
+            "xLabelProj": {
+              "t": "X (istok):",
+              "src": "machine",
+              "h": "b536ef7241b3"
+            },
+            "yLabelProj": {
+              "t": "Y (Sjever):",
+              "src": "machine",
+              "h": "7ca1965afcee"
+            },
+            "fmtXY": {
+              "t": "X i Y",
+              "src": "machine",
+              "h": "18ea7f3cb08e"
+            },
+            "fmtMGRS": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNG": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTM": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYShort": {
+              "t": "X, Y",
+              "src": "machine",
+              "h": "792fe9a19865"
+            },
+            "fmtXYMap": {
+              "t": "Mapa X i Y",
+              "src": "machine",
+              "h": "5e16f34cc262"
+            },
+            "coordsOutOfArea": {
+              "t": "izvan područja ovog koordinatnog sistema",
+              "src": "machine",
+              "h": "25967b8e2401"
+            },
+            "coordsOutOfAreaInput": {
+              "t": "Te koordinate su izvan područja koordinatnog sistema izabranog u jedinicama.",
+              "src": "machine",
+              "h": "85de97d9054e"
+            },
+            "fmtDDShort": {
+              "t": "Lat Lon",
+              "src": "machine",
+              "h": "0dfbe6fe38b7"
+            },
+            "fmtDDMShort": {
+              "t": "Lat Lon (DDM)",
+              "src": "machine",
+              "h": "2d7e2a9caefc"
+            },
+            "fmtDMSShort": {
+              "t": "Lat Lon (DMS)",
+              "src": "machine",
+              "h": "24a526a14c92"
+            },
+            "fmtMGRSShort": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNGShort": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTMShort": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "noMapConnected": {
+              "t": "Ovaj grafički element još nije spojen na mapu. Otvori postavke grafičkog elementa i izaberi grafički element za mapu.",
+              "src": "machine",
+              "h": "ceab8a6a692e"
+            },
+            "noTabsEnabled": {
+              "t": "Svaka kartica u ovom grafičkom elementu je isključena. Uključite barem jednu od adresa, koordinata ili inspektora ponovo u postavkama grafičkog elementa.",
+              "src": "machine",
+              "h": "4f2c187c3448"
+            },
+            "locating": {
+              "t": "Lociram, molim sačekajte.",
+              "src": "machine",
+              "h": "f8347c3165d1"
+            },
+            "helpIntro": {
+              "t": "Pronađite mjesto na karti po njenoj adresi, po njenim koordinatama, ili klikom na mapu da biste dobili adresu tamo.",
+              "src": "machine",
+              "h": "762859cdfb0e"
+            },
+            "helpSearchPlaceholder": {
+              "t": "Traži vodič (pokušajadresa ililatitude",
+              "src": "machine",
+              "h": "5a1907b10cca"
+            },
+            "helpNoMatches": {
+              "t": "Ništa u vodiču ne odgovara toj riječi.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunTitle": {
+              "t": "Novi ovdje?",
+              "src": "machine",
+              "h": "b81f2e17e001"
+            },
+            "firstRunBody": {
+              "t": "Izaberite karticu na vrhu, unesite adresu ili koordinate i kliknite na Locate, a mjesto je označeno na karti.",
+              "src": "machine",
+              "h": "06a3a086e1d2"
+            },
+            "firstRunHelpLink": {
+              "t": "Otvori vodič.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "firstRunDismiss": {
+              "t": "Otpust",
+              "src": "machine",
+              "h": "70afe9eff3f2"
+            },
+            "helpStartTitle": {
+              "t": "Počnite ovdje: tri koraka",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpStart1": {
+              "t": "Izaberi karticu na vrhu: {tabs}.",
+              "src": "machine",
+              "h": "998d8846512a"
+            },
+            "helpStart2": {
+              "t": "Zatim {actions}.",
+              "src": "machine",
+              "h": "bd8c25276e71"
+            },
+            "helpStart2Type": {
+              "t": "tip {what} i kliknite {locate}",
+              "src": "machine",
+              "h": "39416889498e"
+            },
+            "helpStart2Inspect": {
+              "t": "Kliknite dugme za pribadaču {inspector}, a zatim kliknite na mapu",
+              "src": "machine",
+              "h": "9423583f6eb4"
+            },
+            "helpStart2Join": {
+              "t": ", ili",
+              "src": "machine",
+              "h": "e49a64098dc6"
+            },
+            "helpStart3": {
+              "t": "Mjesto je označeno na mapi i otvara se okvir sa detaljima. {results} kartica navodi sve što ste našli.",
+              "src": "machine",
+              "h": "33fa6194cc83"
+            },
+            "helpStart3NoResults": {
+              "t": "Mjesto je označeno na mapi i otvara se kutija sa svojim detaljima.",
+              "src": "machine",
+              "h": "d82bfacf04c4"
+            },
+            "helpAddressTitle": {
+              "t": "Pronalazim adresu",
+              "src": "machine",
+              "h": "0eb67c313e5c"
+            },
+            "helpAddressIntro": {
+              "t": "Na kartici {address}.",
+              "src": "machine",
+              "h": "4844b5acd788"
+            },
+            "helpAddress1": {
+              "t": "Ukucaj adresu u kutiju na način na koji bi je napisao na koverti, uključujući broj kuće i ulice, i grad ako mapa pokriva više od jednog.",
+              "src": "machine",
+              "h": "d8785a0cb32a"
+            },
+            "helpAddress2": {
+              "t": "Pritisnite Enter ili kliknite {locate}. Svako dobro poklapanje ima oznaku poštanskog sandučića na karti.",
+              "src": "machine",
+              "h": "6c05738fd847"
+            },
+            "helpAddressExtent": {
+              "t": "Tik{limit} da biste pogledali samo unutar područja koje karta pokazuje sada. To pomaže kada je isto ime ulice u drugom gradu.",
+              "src": "machine",
+              "h": "41be4f1464c3"
+            },
+            "helpAddressScore": {
+              "t": "Svaki meč ima rezultat od 100, što je veći rezultat, to je bliži meč, najbolji meč je prvi.",
+              "src": "machine",
+              "h": "547fdc911a45"
+            },
+            "helpCoordsTitle": {
+              "t": "Idem na koordinate",
+              "src": "machine",
+              "h": "38a1b6b17d72"
+            },
+            "helpCoordsIntro": {
+              "t": "Na kartici {coordinates}.",
+              "src": "machine",
+              "h": "53ccfdcb6028"
+            },
+            "helpCoordsUnits": {
+              "t": "Izaberite vrstu koordinata u {units}. Kutije ispod se poklapaju.",
+              "src": "machine",
+              "h": "3dd2db0f868d"
+            },
+            "helpCoordsXY": {
+              "t": "Za X i Y postoje dvije kutije, naljepnica pored svake kutije piše koji broj ide tamo.",
+              "src": "machine",
+              "h": "c6855245ac09"
+            },
+            "helpCoordsLatLon": {
+              "t": "Za geografsku širinu i geografsku dužinu postoji jedna kutija. Umetnite ih onako kako ih imate: decimalni brojevi, ili stepeni, minute i sekunde sa N, S, E ili W. Latitude su na prvom mjestu.",
+              "src": "machine",
+              "h": "b86f02ebbc6b"
+            },
+            "helpCoordsGrid": {
+              "t": "Za referencu mreže (MGRS, USNG ili UTM) postoji jedna kutija. Zalijepite cijelu referencu, zonu i sve.",
+              "src": "machine",
+              "h": "5375d11a4fc7"
+            },
+            "helpCoordsExample": {
+              "t": "Nisam siguran u formatu? Plavi tekst pored {example} je sredina karte u tom formatu i mijenja se dok pomjerate mapu. Kliknite da popunite okvir, zatim ga promijenite.",
+              "src": "machine",
+              "h": "88623ec85c46"
+            },
+            "helpCoords2": {
+              "t": "Kliknite {locate} ili pritisnite Enter. Igla označava mjesto na karti.",
+              "src": "machine",
+              "h": "eb9fb66be515"
+            },
+            "helpInspectTitle": {
+              "t": "Dobavljam adresu mjesta",
+              "src": "machine",
+              "h": "8b0181146bbc"
+            },
+            "helpInspectIntro": {
+              "t": "Na kartici {inspector}.",
+              "src": "machine",
+              "h": "47d82cd6d956"
+            },
+            "helpInspect1": {
+              "t": "Pritisnite dugme za pribadaču ({button}), zatim kliknite na mjesto na karti.",
+              "src": "machine",
+              "h": "e1568970f8b4"
+            },
+            "helpInspect2": {
+              "t": "Grafički element traži najbližu adresu i označava je kućom.",
+              "src": "machine",
+              "h": "066e77fd83f1"
+            },
+            "helpInspectKeep": {
+              "t": "Dugme za pribadače ostaje uključeno, tako da možete nastaviti s klikom na mjesta. Kliknite ponovo da zaustavite.",
+              "src": "machine",
+              "h": "0edf47dc4408"
+            },
+            "helpInspectOnce": {
+              "t": "Dugme za pribadače se isključuje nakon jednog klika. Kliknite ponovo za sljedeće mjesto.",
+              "src": "machine",
+              "h": "bbe52d9b94c9"
+            },
+            "helpResultsTitle": {
+              "t": "Tvoji rezultati.",
+              "src": "machine",
+              "h": "2b90e99c4d13"
+            },
+            "helpResults1": {
+              "t": "Tabica {results} navodi sve što ste našli, sa brojanjem na vrhu.",
+              "src": "machine",
+              "h": "b66b1423adaa"
+            },
+            "helpResults2": {
+              "t": "Kliknite na rezultat da pomjerite mapu na nju i otvorite detalje.",
+              "src": "machine",
+              "h": "adaa775ef36f"
+            },
+            "helpResults3": {
+              "t": "X na desnoj strani rezultata oduzima taj jedan. {clear}odvodi ih sve.",
+              "src": "machine",
+              "h": "961ae53a5674"
+            },
+            "helpResultsAutoClose": {
+              "t": "Kutija sa detaljima se zatvara sama od sebe nakon nekoliko sekundi. Držite miša iznad njega i on ostaje otvoren.",
+              "src": "machine",
+              "h": "d3e188da4f93"
+            },
+            "helpTroubleTitle": {
+              "t": "Ako nešto nije u redu",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTroubleNoMap": {
+              "t": "Grafički element traži kartu: još nije spojen na jednu. Pitajte onoga ko je napravio ovu aplikaciju da izabere mapu u postavkama grafičkog elementa.",
+              "src": "machine",
+              "h": "434229a1ccd8"
+            },
+            "helpTroubleNoResults": {
+              "t": "Rezultati nisu pronađeni: adresa nije pronađena. Provjerite ispravno pisanje, izostavite bilo koju jedinicu ili broj apartmana i pokušajte ponovo.",
+              "src": "machine",
+              "h": "98134ce1c39e"
+            },
+            "helpTroubleExtent": {
+              "t": "Nema rezultata pronađenih sa {limit} označenim: adresa je izvan područja koji prikazuje mapa. Otkopčaj ili uvećaj, pa pokušaj ponovo.",
+              "src": "machine",
+              "h": "d401dc3b7c0b"
+            },
+            "helpTroubleNoAddressTab": {
+              "t": "{address} kartica nedostaje: usluga adrese nije mogla biti dosegnuta prilikom otvaranja grafičkog elementa. Ponovo učitaj stranicu, a ako još uvijek nedostaje, kontaktirajte GIS diviziju.",
+              "src": "machine",
+              "h": "9dd62943dc3b"
+            },
+            "helpTroubleCoords": {
+              "t": "Pin slijeće na pogrešno mjesto: pogrešna vrsta koordinata je izabrana u {units}, ili su X i Y u pogrešnim kutijama. Odaberite drugu vrstu ili zamijenite brojeve.",
+              "src": "machine",
+              "h": "ef2e5be4d630"
+            },
+            "helpTroubleInspect": {
+              "t": "Neuspjela inspekcija adrese: nema adrese u blizini tog mjesta. Kliknite bliže ulici.",
+              "src": "machine",
+              "h": "51ff27661004"
+            },
+            "helpTroubleSpinner": {
+              "t": "Grafički element se stalno vrti: mapa se još uvijek učitava. Daj joj trenutak, a zatim ponovo učitaj stranicu.",
+              "src": "machine",
+              "h": "67460c6da0d3"
+            },
+            "helpTroubleContact": {
+              "t": "Još uvijek zapeo? Kontaktirajte GIS diviziju i spomenite poboljšani lokacijski grafički element i ovu aplikaciju.",
+              "src": "machine",
+              "h": "7b747001f7d8"
+            },
+            "helpTipsTitle": {
+              "t": "Dobro je znati.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            },
+            "helpTips1": {
+              "t": "Zatvori grafički element i njegovi znakovi napuštaju mapu. Otvori ga ponovo i oni se vraćaju, dok ne klikneš {clear}.",
+              "src": "machine",
+              "h": "99e99fde6379"
+            },
+            "helpTips2": {
+              "t": "Svaka nova pretraga zamjenjuje oznake od one prije.",
+              "src": "machine",
+              "h": "d00bab14d075"
+            },
+            "helpTips3": {
+              "t": "Zadrži Alt i kliknite bilo gdje u grafičkom elementu da vidite koju verziju imate.",
+              "src": "machine",
+              "h": "2f206b510364"
+            },
+            "unknownError": {
+              "t": "nepoznata greška",
+              "src": "machine",
+              "h": "af6321ca7a8b"
+            },
+            "unserializableError": {
+              "t": "Neserijalizacijska greška",
+              "src": "machine",
+              "h": "76e73551597a"
+            }
+          }
         },
         "ca": {
           "file": "cd3cba763cdd",
@@ -5914,18 +6425,529 @@
           }
         },
         "hr": {
-          "file": "1826c71080ee",
+          "file": "6ec04356130c",
           "counts": {
             "esri": 21,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 102,
             "stale": 0,
-            "missing": 102
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Unaprijeđeno lociranje",
+              "src": "machine",
+              "h": "d881832ed150"
+            },
+            "zoom2message": {
+              "t": "Kliknite da biste uveličali rezultate",
+              "src": "machine",
+              "h": "c943fb44eccb"
+            },
+            "addressinsplabel": {
+              "t": "Inspektore.",
+              "src": "machine",
+              "h": "8222c902ae07"
+            },
+            "coordDescLabel": {
+              "t": "Unesite koordinate:",
+              "src": "machine",
+              "h": "8f42d9de1880"
+            },
+            "reverseDescLabel": {
+              "t": "Pomoću alata za pregled adrese kliknite na kartu i locirajte adresu.",
+              "src": "machine",
+              "h": "81d48b5343f6"
+            },
+            "removeresultmessage": {
+              "t": "Ukloni rezultat",
+              "src": "machine",
+              "h": "d3ffecf61a48"
+            },
+            "resultsfoundlabel": {
+              "t": "Rezultati pronađeni:",
+              "src": "machine",
+              "h": "d5e4c3e57fee"
+            },
+            "resultsLayerTitle": {
+              "t": "Poboljšani rezultati lociranja",
+              "src": "machine",
+              "h": "a69f26581cd4"
+            },
+            "widgetversion": {
+              "t": "Unaprijeđeno Lociraj Widget Verzija Info",
+              "src": "machine",
+              "h": "a628d482fc16"
+            },
+            "widgetverstr": {
+              "t": "Inačica widgeta",
+              "src": "machine",
+              "h": "056c4b09dfe2"
+            },
+            "wabversionmsg": {
+              "t": "Widget je dizajniran za pokretanje u Experience Builder inačici",
+              "src": "machine",
+              "h": "b0c8a6c2df3b"
+            },
+            "revgeocodetip": {
+              "t": "Obratite pažnju na adresu po točki",
+              "src": "machine",
+              "h": "07a1b7a3bdd7"
+            },
+            "example": {
+              "t": "Primjer:",
+              "src": "machine",
+              "h": "c63737abd734"
+            },
+            "drawpointtooltip": {
+              "t": "_Adresa lokacija:",
+              "src": "machine",
+              "h": "0b9e933e4987"
+            },
+            "longitude": {
+              "t": "Dužina (X)",
+              "src": "machine",
+              "h": "a236cc673be5"
+            },
+            "latitude": {
+              "t": "Širina (Y)",
+              "src": "machine",
+              "h": "cced591da02b"
+            },
+            "llcoordinates": {
+              "t": "Koordinate Lat Lona",
+              "src": "machine",
+              "h": "7aafa3f16e2e"
+            },
+            "exampleClickTooltip": {
+              "t": "Kliknite za dodavanje gore navedenih koordinata primjera",
+              "src": "machine",
+              "h": "b3f8f3e9f871"
+            },
+            "score": {
+              "t": "Rezultat",
+              "src": "machine",
+              "h": "489f4877244a"
+            },
+            "locatorissue": {
+              "t": "GeocodeServer izdanje",
+              "src": "machine",
+              "h": "1d07608355e3"
+            },
+            "locatorissuemessage": {
+              "t": "Servis za geokodiranje nije mogao biti pročitan ili nema polje za jednu liniju adrese. Kartica za adresu je skrivena dok nije učvršćena u postavkama widgeta.",
+              "src": "machine",
+              "h": "1eebf03c74a7"
+            },
+            "limittomapextent": {
+              "t": "Ograničenje pretraživanja adrese u mjerilu karata.",
+              "src": "machine",
+              "h": "d9cc196eff24"
+            },
+            "reversegeocodefailtitle": {
+              "t": "Inspekcija adrese nije uspjela",
+              "src": "machine",
+              "h": "bd0b1b838bfc"
+            },
+            "reversegeocodefailmsg": {
+              "t": "Neuspjelo pronalaženje adrese na mjestu kliknute. Molim pokušajte ponovno.",
+              "src": "machine",
+              "h": "1550832fd396"
+            },
+            "searchError": {
+              "t": "Pretraga adrese nije uspjela. Provjerite geocode servis u postavkama widgeta, a zatim pokušajte ponovno.",
+              "src": "machine",
+              "h": "d2eec6648773"
+            },
+            "projectissue": {
+              "t": "Došlo je do problema prilikom projiciranja lokacije.",
+              "src": "machine",
+              "h": "38bc86b84bcb"
+            },
+            "exampleClick": {
+              "t": "Kliknite za premještanje vrijednosti primjera u ulazna polja",
+              "src": "machine",
+              "h": "f4547d1d3bc6"
+            },
+            "coordsInvalid": {
+              "t": "Te koordinate se ne mogu pročitati. Kliknite na primjer ispod okvira da vidite format koji ova jedinica očekuje.",
+              "src": "machine",
+              "h": "e232741ad3e5"
+            },
+            "xLabelProj": {
+              "t": "X (istok):",
+              "src": "machine",
+              "h": "b536ef7241b3"
+            },
+            "yLabelProj": {
+              "t": "Y (Sjever):",
+              "src": "machine",
+              "h": "7ca1965afcee"
+            },
+            "fmtXY": {
+              "t": "X i Y",
+              "src": "machine",
+              "h": "18ea7f3cb08e"
+            },
+            "fmtMGRS": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNG": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTM": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYShort": {
+              "t": "X, Y",
+              "src": "machine",
+              "h": "792fe9a19865"
+            },
+            "fmtXYMap": {
+              "t": "Karta X i Y",
+              "src": "machine",
+              "h": "5e16f34cc262"
+            },
+            "coordsOutOfArea": {
+              "t": "izvan područja ovog koordinatnog sustava",
+              "src": "machine",
+              "h": "25967b8e2401"
+            },
+            "coordsOutOfAreaInput": {
+              "t": "Te koordinate su izvan područja koordinatnog sustava izabranog u jedinicama.",
+              "src": "machine",
+              "h": "85de97d9054e"
+            },
+            "fmtDDShort": {
+              "t": "Lat Lon",
+              "src": "machine",
+              "h": "0dfbe6fe38b7"
+            },
+            "fmtDDMShort": {
+              "t": "Lat Lon (DDM)",
+              "src": "machine",
+              "h": "2d7e2a9caefc"
+            },
+            "fmtDMSShort": {
+              "t": "Lat Lon (DMS)",
+              "src": "machine",
+              "h": "24a526a14c92"
+            },
+            "fmtMGRSShort": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNGShort": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTMShort": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "noMapConnected": {
+              "t": "Ovaj widget još nije spojen na mapu. Otvori postavke widgeta i odaberi widget Mapa.",
+              "src": "machine",
+              "h": "ceab8a6a692e"
+            },
+            "noTabsEnabled": {
+              "t": "Svaka kartica u ovom widgetu je isključena. Uključite barem jednu od adresa, Koordinate ili inspektor natrag u postavkama widget.",
+              "src": "machine",
+              "h": "4f2c187c3448"
+            },
+            "locating": {
+              "t": "Lociram, molim pričekajte.",
+              "src": "machine",
+              "h": "f8347c3165d1"
+            },
+            "helpIntro": {
+              "t": "Pronađite mjesto na karti po njezinoj adresi, po njenim koordinatama, ili klikom na kartu kako biste dobili adresu tamo.",
+              "src": "machine",
+              "h": "762859cdfb0e"
+            },
+            "helpSearchPlaceholder": {
+              "t": "Traži vodič (pokušajte adresa ililatitude",
+              "src": "machine",
+              "h": "5a1907b10cca"
+            },
+            "helpNoMatches": {
+              "t": "Ništa u vodiču ne odgovara toj riječi. Pokušajte drugi, ili otvorite dijelove iznad.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunTitle": {
+              "t": "Novi ovdje?",
+              "src": "machine",
+              "h": "b81f2e17e001"
+            },
+            "firstRunBody": {
+              "t": "Odaberite karticu na vrhu, upišite adresu ili koordinate i kliknite Locate, a mjesto je označeno na karti.",
+              "src": "machine",
+              "h": "06a3a086e1d2"
+            },
+            "firstRunHelpLink": {
+              "t": "Otvori vodič.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "firstRunDismiss": {
+              "t": "Otpust",
+              "src": "machine",
+              "h": "70afe9eff3f2"
+            },
+            "helpStartTitle": {
+              "t": "Počnite ovdje: tri koraka",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpStart1": {
+              "t": "Odaberite karticu na vrhu: {tabs}.",
+              "src": "machine",
+              "h": "998d8846512a"
+            },
+            "helpStart2": {
+              "t": "Zatim {actions}.",
+              "src": "machine",
+              "h": "bd8c25276e71"
+            },
+            "helpStart2Type": {
+              "t": "tip {what} i kliknite {locate}",
+              "src": "machine",
+              "h": "39416889498e"
+            },
+            "helpStart2Inspect": {
+              "t": "Kliknite gumb za pribadaču na {inspector} i zatim kliknite na kartu",
+              "src": "machine",
+              "h": "9423583f6eb4"
+            },
+            "helpStart2Join": {
+              "t": ", ili",
+              "src": "machine",
+              "h": "e49a64098dc6"
+            },
+            "helpStart3": {
+              "t": "Mjesto je označeno na karti i okvir se otvara sa svojim detaljima. {results} kartica navodi sve što ste pronašli.",
+              "src": "machine",
+              "h": "33fa6194cc83"
+            },
+            "helpStart3NoResults": {
+              "t": "Mjesto je označeno na karti i otvara se kutija sa svojim detaljima.",
+              "src": "machine",
+              "h": "d82bfacf04c4"
+            },
+            "helpAddressTitle": {
+              "t": "Pronalaženje adrese",
+              "src": "machine",
+              "h": "0eb67c313e5c"
+            },
+            "helpAddressIntro": {
+              "t": "Na kartici {address}.",
+              "src": "machine",
+              "h": "4844b5acd788"
+            },
+            "helpAddress1": {
+              "t": "Upišite adresu u kutiju na način na koji biste je napisali na omotnici, uključujući broj kuće i ulice, a grad ako karta pokriva više od jedne.",
+              "src": "machine",
+              "h": "d8785a0cb32a"
+            },
+            "helpAddress2": {
+              "t": "Pritisnite Enter ili kliknite {locate}. Svaka dobra podudarnost dobiva oznaku poštanskog sandučića na karti.",
+              "src": "machine",
+              "h": "6c05738fd847"
+            },
+            "helpAddressExtent": {
+              "t": "Tik{limit} pogledati samo unutar područja na karti pokazuje sada. To pomaže kada je isto ime ulice u drugom gradu.",
+              "src": "machine",
+              "h": "41be4f1464c3"
+            },
+            "helpAddressScore": {
+              "t": "Svaka utakmica ima rezultat od 100. Što je veći rezultat, to je bliži meč. Najbolji meč je prvi.",
+              "src": "machine",
+              "h": "547fdc911a45"
+            },
+            "helpCoordsTitle": {
+              "t": "Idem na koordinate.",
+              "src": "machine",
+              "h": "38a1b6b17d72"
+            },
+            "helpCoordsIntro": {
+              "t": "Na kartici {coordinates}.",
+              "src": "machine",
+              "h": "53ccfdcb6028"
+            },
+            "helpCoordsUnits": {
+              "t": "Odaberite vrstu koordinata koje imate u {units}. Kutije ispod se poklapaju.",
+              "src": "machine",
+              "h": "3dd2db0f868d"
+            },
+            "helpCoordsXY": {
+              "t": "Za X i Y postoje dvije kutije. Naljepnica pored svake kutije piše koji broj ide tamo.",
+              "src": "machine",
+              "h": "c6855245ac09"
+            },
+            "helpCoordsLatLon": {
+              "t": "Za geografsku širinu i zemljopisnu dužinu postoji jedna kutija. Zalijepite ih onako kako ih imate: decimalni brojevi, ili stupnjevi, minute i sekunde s N, S, E ili W. Latitude je na prvom mjestu.",
+              "src": "machine",
+              "h": "b86f02ebbc6b"
+            },
+            "helpCoordsGrid": {
+              "t": "Za mrežnu referencu (MGRS, USNG ili UTM) postoji jedna kutija. Zalijepite cijelu referencu, zonu i sve.",
+              "src": "machine",
+              "h": "5375d11a4fc7"
+            },
+            "helpCoordsExample": {
+              "t": "Nije siguran u formatu? Plavi tekst pored {example} je sredina karte u tom formatu, i mijenja se dok pomičete kartu. Kliknite ga da popunite okvir, a zatim ga promijenite.",
+              "src": "machine",
+              "h": "88623ec85c46"
+            },
+            "helpCoords2": {
+              "t": "Kliknite {locate} ili pritisnite Enter. Igla označava mjesto na karti.",
+              "src": "machine",
+              "h": "eb9fb66be515"
+            },
+            "helpInspectTitle": {
+              "t": "Dobivanje adrese mjesta",
+              "src": "machine",
+              "h": "8b0181146bbc"
+            },
+            "helpInspectIntro": {
+              "t": "Na kartici {inspector}.",
+              "src": "machine",
+              "h": "47d82cd6d956"
+            },
+            "helpInspect1": {
+              "t": "Kliknite na pribadaču ({button}), a zatim kliknite na mjesto na karti.",
+              "src": "machine",
+              "h": "e1568970f8b4"
+            },
+            "helpInspect2": {
+              "t": "Grafički element gleda u najbližu adresu i označava ga s kućom.",
+              "src": "machine",
+              "h": "066e77fd83f1"
+            },
+            "helpInspectKeep": {
+              "t": "Dugme za pribadače ostaje uključeno, tako da možete i dalje kliktati na mjesta. Kliknite ga opet da stanete.",
+              "src": "machine",
+              "h": "0edf47dc4408"
+            },
+            "helpInspectOnce": {
+              "t": "Dugme za pribadače se isključuje nakon jednog klika. Kliknite ponovno za sljedeće mjesto.",
+              "src": "machine",
+              "h": "bbe52d9b94c9"
+            },
+            "helpResultsTitle": {
+              "t": "Vaši rezultati",
+              "src": "machine",
+              "h": "2b90e99c4d13"
+            },
+            "helpResults1": {
+              "t": "Tablica {results} navodi sve što ste pronašli, s brojanjem na vrhu.",
+              "src": "machine",
+              "h": "b66b1423adaa"
+            },
+            "helpResults2": {
+              "t": "Kliknite na rezultat da biste premjestili kartu na nju i otvorili njene detalje.",
+              "src": "machine",
+              "h": "adaa775ef36f"
+            },
+            "helpResults3": {
+              "t": "X na desno od rezultata uzima da je jedan daleko. {clear} uzima ih sve daleko.",
+              "src": "machine",
+              "h": "961ae53a5674"
+            },
+            "helpResultsAutoClose": {
+              "t": "Detalji okvir zatvara sama nakon nekoliko sekundi. Držite miša nad njim i on ostaje otvoren.",
+              "src": "machine",
+              "h": "d3e188da4f93"
+            },
+            "helpTroubleTitle": {
+              "t": "Ako nešto izgleda loše",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTroubleNoMap": {
+              "t": "Grafički element traži kartu: još nije spojen na jednu. Pitajte onoga tko je izgradio ovu aplikaciju da izabere kartu u postavkama widgeta.",
+              "src": "machine",
+              "h": "434229a1ccd8"
+            },
+            "helpTroubleNoResults": {
+              "t": "Rezultati nisu pronađeni: adresa nije pronađena. Provjerite pravopis, izostavite bilo koju jedinicu ili broj apartmana i pokušajte ponovno.",
+              "src": "machine",
+              "h": "98134ce1c39e"
+            },
+            "helpTroubleExtent": {
+              "t": "Nema rezultata pronađenih s{limit} označeno: adresa je izvan područja koje karta prikazuje. Otkopčajte ga ili zumirajte, a zatim pokušajte ponovno.",
+              "src": "machine",
+              "h": "d401dc3b7c0b"
+            },
+            "helpTroubleNoAddressTab": {
+              "t": "{address} kartica nedostaje: usluga adrese nije mogla biti dosegnuta kada je widget otvoren. Ponovo učitaj stranicu, i ako još uvijek nedostaje, kontaktiraj GIS diviziju.",
+              "src": "machine",
+              "h": "9dd62943dc3b"
+            },
+            "helpTroubleCoords": {
+              "t": "Pin slijeće na pogrešno mjesto: pogrešna vrsta koordinata se bira u {units}, ili X i Y su u pogrešnim kutijama. Odaberite drugu vrstu ili zamijeniti brojeve.",
+              "src": "machine",
+              "h": "ef2e5be4d630"
+            },
+            "helpTroubleInspect": {
+              "t": "Neuspjela inspekcija adrese: nema adrese u blizini tog mjesta. Kliknite bliže ulici.",
+              "src": "machine",
+              "h": "51ff27661004"
+            },
+            "helpTroubleSpinner": {
+              "t": "Grafički element se stalno vrti: karta se još učitava. Dajte joj trenutak, a zatim ponovno učitaj stranicu.",
+              "src": "machine",
+              "h": "67460c6da0d3"
+            },
+            "helpTroubleContact": {
+              "t": "Još uvijek zaglavi? Kontaktirajte GIS Division i spomenuti poboljšano Locate widget i ovu aplikaciju.",
+              "src": "machine",
+              "h": "7b747001f7d8"
+            },
+            "helpTipsTitle": {
+              "t": "Dobro je znati.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            },
+            "helpTips1": {
+              "t": "Zatvori widget i njegovi znakovi ostaviti kartu. Otvorite ga opet i oni se vraćaju, dok ne kliknete {clear}.",
+              "src": "machine",
+              "h": "99e99fde6379"
+            },
+            "helpTips2": {
+              "t": "Svaka nova pretraga zamjenjuje oznake iz one prije.",
+              "src": "machine",
+              "h": "d00bab14d075"
+            },
+            "helpTips3": {
+              "t": "Držite Alt i kliknite bilo gdje u widgetu da vidite koju verziju imate.",
+              "src": "machine",
+              "h": "2f206b510364"
+            },
+            "unknownError": {
+              "t": "nepoznata greška",
+              "src": "machine",
+              "h": "af6321ca7a8b"
+            },
+            "unserializableError": {
+              "t": "Neserijalizacijska greška",
+              "src": "machine",
+              "h": "76e73551597a"
+            }
+          }
         },
         "hu": {
           "file": "d9b215b4d61c",
@@ -13628,18 +14650,519 @@
           }
         },
         "sr": {
-          "file": "0cad82841e41",
+          "file": "58e0adc574b0",
           "counts": {
             "esri": 22,
             "esri-check": 4,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 100,
             "stale": 0,
-            "missing": 100
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Unapreðeno lociranje",
+              "src": "machine",
+              "h": "d881832ed150"
+            },
+            "zoom2message": {
+              "t": "Кликните да увеличате до резултатаQShortcut",
+              "src": "machine",
+              "h": "c943fb44eccb"
+            },
+            "addressinsplabel": {
+              "t": "Inspektore.",
+              "src": "machine",
+              "h": "8222c902ae07"
+            },
+            "coordDescLabel": {
+              "t": "Unesite koordinate:",
+              "src": "machine",
+              "h": "8f42d9de1880"
+            },
+            "reverseDescLabel": {
+              "t": "Koristite alat za pregled adrese da kliknete na mapu i locirate adresu.",
+              "src": "machine",
+              "h": "81d48b5343f6"
+            },
+            "removeresultmessage": {
+              "t": "Уклони резултатQShortcut",
+              "src": "machine",
+              "h": "d3ffecf61a48"
+            },
+            "resultsfoundlabel": {
+              "t": "Pronađeni rezultati:",
+              "src": "machine",
+              "h": "d5e4c3e57fee"
+            },
+            "resultsLayerTitle": {
+              "t": "Unapređeni rezultati lociranja",
+              "src": "machine",
+              "h": "a69f26581cd4"
+            },
+            "widgetversion": {
+              "t": "Побољшана локација widget Version Info",
+              "src": "machine",
+              "h": "a628d482fc16"
+            },
+            "widgetverstr": {
+              "t": "Верзија виџетаQShortcut",
+              "src": "machine",
+              "h": "056c4b09dfe2"
+            },
+            "wabversionmsg": {
+              "t": "Widget je dizajniran za pokretanje u verziji Experience Builder",
+              "src": "machine",
+              "h": "b0c8a6c2df3b"
+            },
+            "revgeocodetip": {
+              "t": "Obrati pažnju na adresu po tački",
+              "src": "machine",
+              "h": "07a1b7a3bdd7"
+            },
+            "example": {
+              "t": "Primer:",
+              "src": "machine",
+              "h": "c63737abd734"
+            },
+            "drawpointtooltip": {
+              "t": "Adresa pretraživanja lokacija",
+              "src": "machine",
+              "h": "0b9e933e4987"
+            },
+            "longitude": {
+              "t": "Dužina (X)",
+              "src": "machine",
+              "h": "a236cc673be5"
+            },
+            "latitude": {
+              "t": "Ширина (Y)",
+              "src": "machine",
+              "h": "cced591da02b"
+            },
+            "llcoordinates": {
+              "t": "Lat Lon Koordinate",
+              "src": "machine",
+              "h": "7aafa3f16e2e"
+            },
+            "exampleClickTooltip": {
+              "t": "Klikni da dodaš koordinate primera iznad",
+              "src": "machine",
+              "h": "b3f8f3e9f871"
+            },
+            "score": {
+              "t": "Pogodak.",
+              "src": "machine",
+              "h": "489f4877244a"
+            },
+            "locatorissue": {
+              "t": "Издање геокода СервераGeocodeServer",
+              "src": "machine",
+              "h": "1d07608355e3"
+            },
+            "locatorissuemessage": {
+              "t": "Servis geokodiranja nije mogao da se pročita, ili nema polje za jednu liniju adrese. Kartica Adrese je skrivena dok se ne učvrsti u podešavanjima grafičkog elementa.",
+              "src": "machine",
+              "h": "1eebf03c74a7"
+            },
+            "limittomapextent": {
+              "t": "Pretraživanje limitnih adresa u mapi.",
+              "src": "machine",
+              "h": "d9cc196eff24"
+            },
+            "reversegeocodefailtitle": {
+              "t": "Adresna inspekcija nije uspela",
+              "src": "machine",
+              "h": "bd0b1b838bfc"
+            },
+            "reversegeocodefailmsg": {
+              "t": "Ne mogu da nađem adresu kliknutu na lokaciju. Molim pokušajte ponovo.",
+              "src": "machine",
+              "h": "1550832fd396"
+            },
+            "searchError": {
+              "t": "Pretraga adrese nije uspjela. Provjerite geocode servis u postavkama grafičkog elementa, a zatim pokušajte ponovo.",
+              "src": "machine",
+              "h": "d2eec6648773"
+            },
+            "projectissue": {
+              "t": "Došlo je do problema prilikom projiciranja lokacije.",
+              "src": "machine",
+              "h": "38bc86b84bcb"
+            },
+            "exampleClick": {
+              "t": "Klikni da prebaciš vrednosti primera u ulazna polja",
+              "src": "machine",
+              "h": "f4547d1d3bc6"
+            },
+            "coordsInvalid": {
+              "t": "Te koordinate se ne mogu pročitati. Kliknite na primer ispod okvira da vidite format koji ova jedinica očekuje.",
+              "src": "machine",
+              "h": "e232741ad3e5"
+            },
+            "xLabelProj": {
+              "t": "X (istok):",
+              "src": "machine",
+              "h": "b536ef7241b3"
+            },
+            "yLabelProj": {
+              "t": "Y (Sjever):",
+              "src": "machine",
+              "h": "7ca1965afcee"
+            },
+            "fmtXY": {
+              "t": "X i Y",
+              "src": "machine",
+              "h": "18ea7f3cb08e"
+            },
+            "fmtUSNG": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTM": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYShort": {
+              "t": "X, Y",
+              "src": "machine",
+              "h": "792fe9a19865"
+            },
+            "fmtXYMap": {
+              "t": "Mapa X i Y",
+              "src": "machine",
+              "h": "5e16f34cc262"
+            },
+            "coordsOutOfArea": {
+              "t": "izvan područja koordinatnog sistema",
+              "src": "machine",
+              "h": "25967b8e2401"
+            },
+            "coordsOutOfAreaInput": {
+              "t": "Te koordinate su van podruèja koordinatnog sistema koji je izabran u jedinicama.",
+              "src": "machine",
+              "h": "85de97d9054e"
+            },
+            "fmtDDShort": {
+              "t": "Lat Lon",
+              "src": "machine",
+              "h": "0dfbe6fe38b7"
+            },
+            "fmtDDMShort": {
+              "t": "Lat Lon (DDM)",
+              "src": "machine",
+              "h": "2d7e2a9caefc"
+            },
+            "fmtDMSShort": {
+              "t": "Lat Lon (DMS)",
+              "src": "machine",
+              "h": "24a526a14c92"
+            },
+            "fmtUSNGShort": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTMShort": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "noMapConnected": {
+              "t": "Ovaj grafički element još nije povezan sa mapom. Otvorite postavke grafičkog elementa i izaberite Map widget.",
+              "src": "machine",
+              "h": "ceab8a6a692e"
+            },
+            "noTabsEnabled": {
+              "t": "Svaka kartica u ovom grafičkom elementu je iskljuèena. Uključite barem jednu od adresa, koordinata ili inspektora ponovo u postavkama vidžeta.",
+              "src": "machine",
+              "h": "4f2c187c3448"
+            },
+            "locating": {
+              "t": "Lociram, molim vas saèekajte.",
+              "src": "machine",
+              "h": "f8347c3165d1"
+            },
+            "helpIntro": {
+              "t": "Pronađite mesto na mapi po njenoj adresi, po njenim koordinatama, ili klikom na mapu da biste dobili adresu tamo.",
+              "src": "machine",
+              "h": "762859cdfb0e"
+            },
+            "helpSearchPlaceholder": {
+              "t": "Pretraži vodiè (probajadresa ililatitude",
+              "src": "machine",
+              "h": "5a1907b10cca"
+            },
+            "helpNoMatches": {
+              "t": "Ništa u vodièu ne odgovara toj reèi.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunTitle": {
+              "t": "Novi ovde?",
+              "src": "machine",
+              "h": "b81f2e17e001"
+            },
+            "firstRunBody": {
+              "t": "Odaberite karticu na vrhu, ukucajte adresu ili koordinate i kliknite na Locate, a mesto je obeleženo na mapi.",
+              "src": "machine",
+              "h": "06a3a086e1d2"
+            },
+            "firstRunHelpLink": {
+              "t": "Otvori vodiè.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "firstRunDismiss": {
+              "t": "Otpust.",
+              "src": "machine",
+              "h": "70afe9eff3f2"
+            },
+            "helpStartTitle": {
+              "t": "Poènite ovde: tri koraka.",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpStart1": {
+              "t": "Izaberi karticu na vrhu: {tabs}.",
+              "src": "machine",
+              "h": "998d8846512a"
+            },
+            "helpStart2": {
+              "t": "Onda {actions}.",
+              "src": "machine",
+              "h": "bd8c25276e71"
+            },
+            "helpStart2Type": {
+              "t": "tip {what} i kliknite {locate}",
+              "src": "machine",
+              "h": "39416889498e"
+            },
+            "helpStart2Inspect": {
+              "t": "Kliknite dugme pin na {inspector} i onda kliknite na mapu",
+              "src": "machine",
+              "h": "9423583f6eb4"
+            },
+            "helpStart2Join": {
+              "t": ", ili",
+              "src": "machine",
+              "h": "e49a64098dc6"
+            },
+            "helpStart3": {
+              "t": "Mesto je obeleženo na mapi i otvara se kutija sa detaljima. {results} kartica navodi sve što ste pronašli.",
+              "src": "machine",
+              "h": "33fa6194cc83"
+            },
+            "helpStart3NoResults": {
+              "t": "Mesto je obeleženo na mapi i otvara se kutija sa svojim detaljima.",
+              "src": "machine",
+              "h": "d82bfacf04c4"
+            },
+            "helpAddressTitle": {
+              "t": "Pronalaženje adrese",
+              "src": "machine",
+              "h": "0eb67c313e5c"
+            },
+            "helpAddressIntro": {
+              "t": "Na kartici {address}.",
+              "src": "machine",
+              "h": "4844b5acd788"
+            },
+            "helpAddress1": {
+              "t": "Ukucaj adresu u kutiju na naèin na koji bi je napisao na koverti, ukljuèujuæi broj kuæe i ulicu, i grad ako mapa pokriva više od jednog.",
+              "src": "machine",
+              "h": "d8785a0cb32a"
+            },
+            "helpAddress2": {
+              "t": "Pritisnite Enter ili kliknite {locate}. Svaki dobar meč dobija oznaku poštanskog sandučića na mapi.",
+              "src": "machine",
+              "h": "6c05738fd847"
+            },
+            "helpAddressExtent": {
+              "t": "Tik{limit} da biste pogledali samo unutar oblasti koju sada pokazuje mapa. To pomaže kada je isto ime ulice u drugom gradu.",
+              "src": "machine",
+              "h": "41be4f1464c3"
+            },
+            "helpAddressScore": {
+              "t": "Svaki meč ima rezultat od 100, što je veći rezultat, to je bliži meč, najbolji meč je prvi.",
+              "src": "machine",
+              "h": "547fdc911a45"
+            },
+            "helpCoordsTitle": {
+              "t": "Idem na koordinate.",
+              "src": "machine",
+              "h": "38a1b6b17d72"
+            },
+            "helpCoordsIntro": {
+              "t": "Na kartici {coordinates}.",
+              "src": "machine",
+              "h": "53ccfdcb6028"
+            },
+            "helpCoordsUnits": {
+              "t": "Izaberite koordinate koje imate u {units}. Kutije ispod se poklapaju.",
+              "src": "machine",
+              "h": "3dd2db0f868d"
+            },
+            "helpCoordsXY": {
+              "t": "Za X i Y postoje dve kutije, nalepnica pored svake kutije piše koji broj ide tamo.",
+              "src": "machine",
+              "h": "c6855245ac09"
+            },
+            "helpCoordsLatLon": {
+              "t": "Za geografsku širinu i geografsku dužinu postoji jedna kutija. Umetnite ih onako kako ih imate: decimalni brojevi, ili stepeni, minuta i sekundi sa N, S, E ili W. Latitude su na prvom mestu.",
+              "src": "machine",
+              "h": "b86f02ebbc6b"
+            },
+            "helpCoordsGrid": {
+              "t": "Za mrežnu referencu (MGRS, USNG ili UTM) postoji jedna kutija. Zalepite celu referencu, zonu i sve.",
+              "src": "machine",
+              "h": "5375d11a4fc7"
+            },
+            "helpCoordsExample": {
+              "t": "Nisam siguran u formatu? Plavi tekst pored {example} je sredina mape u tom formatu, i menja se dok pomerate mapu. Kliknite da popunite okvir, a zatim ga promenite.",
+              "src": "machine",
+              "h": "88623ec85c46"
+            },
+            "helpCoords2": {
+              "t": "Klikni {locate} ili pritisni Enter. Igla označava mesto na mapi.",
+              "src": "machine",
+              "h": "eb9fb66be515"
+            },
+            "helpInspectTitle": {
+              "t": "Dobijanje adrese mesta",
+              "src": "machine",
+              "h": "8b0181146bbc"
+            },
+            "helpInspectIntro": {
+              "t": "Na kartici {inspector}.",
+              "src": "machine",
+              "h": "47d82cd6d956"
+            },
+            "helpInspect1": {
+              "t": "Pritisnite dugme za pribadaču ({button}), a zatim kliknite na mesto na mapi.",
+              "src": "machine",
+              "h": "e1568970f8b4"
+            },
+            "helpInspect2": {
+              "t": "Vidžet pogleda najbližu adresu i oznaèi je kuæom.",
+              "src": "machine",
+              "h": "066e77fd83f1"
+            },
+            "helpInspectKeep": {
+              "t": "Dugme za iglu ostaje uključeno, tako da možete da kliknete na tačkama. Kliknite ponovo da stanete.",
+              "src": "machine",
+              "h": "0edf47dc4408"
+            },
+            "helpInspectOnce": {
+              "t": "Dugme za pribadače se isključuje nakon jednog klika. Klikni ponovo na sledeće mesto.",
+              "src": "machine",
+              "h": "bbe52d9b94c9"
+            },
+            "helpResultsTitle": {
+              "t": "Tvoji rezultati.",
+              "src": "machine",
+              "h": "2b90e99c4d13"
+            },
+            "helpResults1": {
+              "t": "Tablica {results} navodi sve što ste našli, sa brojanjem na vrhu.",
+              "src": "machine",
+              "h": "b66b1423adaa"
+            },
+            "helpResults2": {
+              "t": "Kliknite na rezultat da pomerite mapu na nju i otvorite njene detalje.",
+              "src": "machine",
+              "h": "adaa775ef36f"
+            },
+            "helpResults3": {
+              "t": "X na desno od rezultata uzima taj jedan daleko. {clear} uzima ih sve daleko.",
+              "src": "machine",
+              "h": "961ae53a5674"
+            },
+            "helpResultsAutoClose": {
+              "t": "Detalji se zatvaraju nakon nekoliko sekundi.",
+              "src": "machine",
+              "h": "d3e188da4f93"
+            },
+            "helpTroubleTitle": {
+              "t": "Ako nešto nije u redu",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTroubleNoMap": {
+              "t": "Grafički element traži mapu: još nije spojen na jednu. Pitajte ko je napravio ovu aplikaciju da izabere mapu u postavkama grafičkog elementa.",
+              "src": "machine",
+              "h": "434229a1ccd8"
+            },
+            "helpTroubleNoResults": {
+              "t": "Nema rezultata: adresa nije pronađena. Proverite spelovanje, izostavite bilo koju jedinicu ili broj apartmana, i pokušajte ponovo.",
+              "src": "machine",
+              "h": "98134ce1c39e"
+            },
+            "helpTroubleExtent": {
+              "t": "Nema rezultata pronađenih sa {limit} označenim: adresa je izvan područja koje mapa prikazuje. Otkopčajte je ili zumirajte, a zatim pokušajte ponovo.",
+              "src": "machine",
+              "h": "d401dc3b7c0b"
+            },
+            "helpTroubleNoAddressTab": {
+              "t": "Nedostaju kartice {address}: usluga adrese nije mogla da se dostigne kada je grafički element otvoren. Ponovo učitaj stranicu, i ako još uvek nedostaje, kontaktiraj GIS diviziju.",
+              "src": "machine",
+              "h": "9dd62943dc3b"
+            },
+            "helpTroubleCoords": {
+              "t": "Pin sleće na pogrešno mesto: pogrešna vrsta koordinata je izabrana u {units}, ili su X i Y u pogrešnim kutijama. Odaberite drugu vrstu ili zamenite brojeve.",
+              "src": "machine",
+              "h": "ef2e5be4d630"
+            },
+            "helpTroubleInspect": {
+              "t": "Adresa Inspekcija nije uspela: nema adrese u blizini tog mesta. Klikni bliže ulici.",
+              "src": "machine",
+              "h": "51ff27661004"
+            },
+            "helpTroubleSpinner": {
+              "t": "Vidžet se stalno vrti: mapa se još uvek učitava. Dajte joj trenutak, a onda ponovo učitaj stranicu.",
+              "src": "machine",
+              "h": "67460c6da0d3"
+            },
+            "helpTroubleContact": {
+              "t": "Još uvek zaglavljen? Kontaktirajte GIS diviziju i pomenite poboljšani lokacioni vidžet i ovu aplikaciju.",
+              "src": "machine",
+              "h": "7b747001f7d8"
+            },
+            "helpTipsTitle": {
+              "t": "Dobro je znati.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            },
+            "helpTips1": {
+              "t": "Zatvori vidžet i njegovi tragovi napuštaju mapu. Otvori je ponovo i oni se vraćaju, dok ne klikneš {clear}.",
+              "src": "machine",
+              "h": "99e99fde6379"
+            },
+            "helpTips2": {
+              "t": "Svaka nova pretraga zamenjuje tragove od one pre.",
+              "src": "machine",
+              "h": "d00bab14d075"
+            },
+            "helpTips3": {
+              "t": "Držite Alt i kliknite bilo gde u vidžetu da vidite koju verziju imate.",
+              "src": "machine",
+              "h": "2f206b510364"
+            },
+            "unknownError": {
+              "t": "nepoznata greška",
+              "src": "machine",
+              "h": "af6321ca7a8b"
+            },
+            "unserializableError": {
+              "t": "Neserijalizacijska greška",
+              "src": "machine",
+              "h": "76e73551597a"
+            }
+          }
         },
         "sv": {
           "file": "4554b26c3073",
@@ -18709,18 +20232,549 @@
           }
         },
         "bs": {
-          "file": "f25610406e67",
+          "file": "d5b18bae70ce",
           "counts": {
             "esri": 21,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 106,
             "stale": 0,
-            "missing": 108
+            "missing": 2
           },
-          "entries": {}
+          "entries": {
+            "configeLocate": {
+              "t": "Podesi pojačano lociranje",
+              "src": "machine",
+              "h": "fcbf08df32ff"
+            },
+            "contryCodeLbl": {
+              "t": "Code(i)",
+              "src": "machine",
+              "h": "60908feae2a1"
+            },
+            "countryCodeExamples": {
+              "t": "npr. SAD,CHN",
+              "src": "machine",
+              "h": "50a205ac631b"
+            },
+            "countryCodeBlank": {
+              "t": "Ostavljajući ovu vrijednost praznom će pretražiti sve zemlje",
+              "src": "machine",
+              "h": "6537aa327238"
+            },
+            "addressinsplabel": {
+              "t": "Adresa inspektora.",
+              "src": "machine",
+              "h": "01bb79199fb0"
+            },
+            "infowindowautoclose": {
+              "t": "Popup automatsko zatvaranje (sekundi)",
+              "src": "machine",
+              "h": "d5dfd8595eb1"
+            },
+            "mouseovergraphic": {
+              "t": "Omogući miša nad grafičkim info prozorima",
+              "src": "machine",
+              "h": "197696d23c71"
+            },
+            "mouseoverresult": {
+              "t": "Omogući miša nad rezultatima info Windows",
+              "src": "machine",
+              "h": "9f5ac3a1cfcc"
+            },
+            "keepactive": {
+              "t": "Držite adresu inspektor alat aktivan nakon svake adrese inspekcije",
+              "src": "machine",
+              "h": "e6a2180fea0f"
+            },
+            "autoclosetip": {
+              "t": "Ukoliko ne odredite broj sekundi ovdje, popup se neće automatski zatvoriti",
+              "src": "machine",
+              "h": "f36c1a594474"
+            },
+            "zoomScale": {
+              "t": "Uobičajena veličina uvećanja",
+              "src": "machine",
+              "h": "64d033cf1a46"
+            },
+            "forcescale": {
+              "t": "Forsiraj skalu",
+              "src": "machine",
+              "h": "cb524da13dfa"
+            },
+            "limittoviewextent": {
+              "t": "Uključi ograničenje geokodera u opsegu pregleda uobičajeno (ako je podržano)",
+              "src": "machine",
+              "h": "aa9b085c5077"
+            },
+            "popupCoordsSR": {
+              "t": "WKID za koordinate prikazane u popup-u",
+              "src": "machine",
+              "h": "715a47d5cefd"
+            },
+            "mapCoordUnit": {
+              "t": "Mapa koordinata",
+              "src": "machine",
+              "h": "f022c499128f"
+            },
+            "addUnit": {
+              "t": "Dodaj koordinatnu jedinicu mape",
+              "src": "machine",
+              "h": "ec81aafc321b"
+            },
+            "editUnit": {
+              "t": "Izmijeni koordinatne jedinice mape",
+              "src": "machine",
+              "h": "25624e52fdc5"
+            },
+            "newCoordUnit": {
+              "t": "Dodaj novu jedinicu koordinata mape i prilagodi opcije.",
+              "src": "machine",
+              "h": "82ed08691d0f"
+            },
+            "example": {
+              "t": "Primjer",
+              "src": "machine",
+              "h": "0f01ed56a1e3"
+            },
+            "xlabel": {
+              "t": "X Oznaka",
+              "src": "machine",
+              "h": "58b39e146c59"
+            },
+            "ylabel": {
+              "t": "Y label",
+              "src": "machine",
+              "h": "9841f4755564"
+            },
+            "wkid": {
+              "t": "WKID",
+              "src": "machine",
+              "h": "55a4a75dbbfe"
+            },
+            "tfwkid": {
+              "t": "Transformiraj WKID",
+              "src": "machine",
+              "h": "42f8cf6f9c54"
+            },
+            "cName": {
+              "t": "ID koordinatnog sistema",
+              "src": "machine",
+              "h": "51285a0d2447"
+            },
+            "tfName": {
+              "t": "ID koordinatnog sistema za transformaciju",
+              "src": "machine",
+              "h": "c368ab481d94"
+            },
+            "dd": {
+              "t": "Decimalni stupnjevi (DD)",
+              "src": "machine",
+              "h": "3b8d9b954566"
+            },
+            "dms": {
+              "t": "_Stepeni Minutes Seconds (DMS)",
+              "src": "machine",
+              "h": "a153dbe4c86c"
+            },
+            "dm": {
+              "t": "_Stepeni Minuti",
+              "src": "machine",
+              "h": "a0b8565c64af"
+            },
+            "ddm": {
+              "t": "Stupanj decimalnog minuta (DDM)",
+              "src": "machine",
+              "h": "03c9e5f469b1"
+            },
+            "nameExample": {
+              "t": "NAD 1983. UTM 16N",
+              "src": "machine",
+              "h": "31492d5b8810"
+            },
+            "invalidTFWKID": {
+              "t": "Nevažeći transformator naprijed WKID",
+              "src": "machine",
+              "h": "260272c1ed0a"
+            },
+            "projx": {
+              "t": "Istok (X):",
+              "src": "machine",
+              "h": "5510ed452f4b"
+            },
+            "projy": {
+              "t": "Severing (Y):",
+              "src": "machine",
+              "h": "767e7ec7b84a"
+            },
+            "inputunits": {
+              "t": "Jedinice za unos",
+              "src": "machine",
+              "h": "f6806930d12d"
+            },
+            "editdisabledtaboptions": {
+              "t": "Odaberite(e) kartice za isključenje",
+              "src": "machine",
+              "h": "1e61c2e6f254"
+            },
+            "popupCoordsSRprecision": {
+              "t": "Preciznost koordinacije u iskačućim rezultatima",
+              "src": "machine",
+              "h": "7692e5a5b00b"
+            },
+            "noVisibleTabsWarning": {
+              "t": "Adresa, koordinate i inspektor su isključeni.",
+              "src": "machine",
+              "h": "7903896827cd"
+            },
+            "locatorUrl": {
+              "t": "Geocode servis URL",
+              "src": "machine",
+              "h": "9cd99b59da08"
+            },
+            "enterUrl": {
+              "t": "Unesite URL GeocodeServer",
+              "src": "machine",
+              "h": "8790ff3b5c26"
+            },
+            "invalidUrlMessage": {
+              "t": "Ovaj URL nije geocode servis koji graditelj iskustva može čitati.",
+              "src": "machine",
+              "h": "8f9abd8c0242"
+            },
+            "helpSection": {
+              "t": "Vodič kroz pomoć",
+              "src": "machine",
+              "h": "d299aafb825a"
+            },
+            "showHelp": {
+              "t": "Pokaži vodič za pomoć",
+              "src": "machine",
+              "h": "03e9f0b81336"
+            },
+            "showHelpTip": {
+              "t": "Pokazuje dugme sa znakom pitanja koje otvara vodič pomoći unutar widgeta i nagovještaj koji je prvi pokrenut.",
+              "src": "machine",
+              "h": "de0cf43db64c"
+            },
+            "coordFormat": {
+              "t": "Format",
+              "src": "machine",
+              "h": "041a5dec481d"
+            },
+            "fmtXY": {
+              "t": "X i Y",
+              "src": "machine",
+              "h": "18ea7f3cb08e"
+            },
+            "fmtMGRS": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNG": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTM": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYShort": {
+              "t": "X, Y",
+              "src": "machine",
+              "h": "792fe9a19865"
+            },
+            "fmtXYMap": {
+              "t": "Mapa X i Y",
+              "src": "machine",
+              "h": "5e16f34cc262"
+            },
+            "fmtXYMapHint": {
+              "t": "Dvije kutije, X i Y, u koordinatnom sistemu mape.",
+              "src": "machine",
+              "h": "d21017249ece"
+            },
+            "coordSectionTitle": {
+              "t": "Koordinatni formati",
+              "src": "machine",
+              "h": "25a5841dfc46"
+            },
+            "legacyUnitsNote": {
+              "t": "Ovaj grafički element još uvijek ima koordinatne jedinice iz verzije 1.9. Oni i dalje rade, ali možda ne odgovaraju ovoj mapi, na primjer koordinatni sistem za neko drugo područje. Prebacite se na standardne formate i dodajte vlastite koordinatne sisteme ispod.",
+              "src": "machine",
+              "h": "0ea56373bdfa"
+            },
+            "useStandardFormats": {
+              "t": "Koristi standardne formate",
+              "src": "machine",
+              "h": "2f279160b8df"
+            },
+            "coordFormatsLabel": {
+              "t": "Gdje je ponuđen svaki format",
+              "src": "machine",
+              "h": "bb937ec5d300"
+            },
+            "colTab": {
+              "t": "_Sadržaj",
+              "src": "machine",
+              "h": "cf71906c8df1"
+            },
+            "offerOnTab": {
+              "t": "Ponuda {name} na kartici Koordinate",
+              "src": "machine",
+              "h": "8108dd445587"
+            },
+            "showInResultsNamed": {
+              "t": "Prikaži {name} u rezultatima",
+              "src": "machine",
+              "h": "3aa8aee61c1c"
+            },
+            "coordFormatsHint": {
+              "t": "Koordinate kartica: formati koje ljudi mogu utipkati. Rezultati: koordinatne linije ispod svakog rezultata i u njegovom popupu. Ovo su isti formati kao Esrijeva komponenta za koordinaciju pretvorbe.",
+              "src": "machine",
+              "h": "cc618fd5492d"
+            },
+            "noTabFormats": {
+              "t": "Nijedan format nije ponuđen, pa je kartica sa koordinatama skrivena.",
+              "src": "machine",
+              "h": "c4507f37da8a"
+            },
+            "ddDecimals": {
+              "t": "Decimalni stepeni: decimalna polja",
+              "src": "machine",
+              "h": "c8f98ab123ad"
+            },
+            "xyDecimals": {
+              "t": "X i Y: decimalna polja",
+              "src": "machine",
+              "h": "0903c4d9f77f"
+            },
+            "customSystemsTitle": {
+              "t": "Koordinatni sistemi za X i Y",
+              "src": "machine",
+              "h": "678b101bb1d5"
+            },
+            "customSystemsHint": {
+              "t": "Dodajte bilo koji drugi koordinatni sistem koji vaša organizacija koristi: unesite njegov WKID, ili zalijepite njegov WKT za lokalni ili prilagođeni sistem bez WKID-a. Ponuđen je na kartici Koordinate sa dvije kutije, X i Y, i može se prikazati u rezultatima.",
+              "src": "machine",
+              "h": "0073ba903516"
+            },
+            "addSystem": {
+              "t": "Dodaj koordinatni sistem",
+              "src": "machine",
+              "h": "6127de527dd7"
+            },
+            "removeSystem": {
+              "t": "Ukloni ovaj koordinatni sistem",
+              "src": "machine",
+              "h": "50e794120d65"
+            },
+            "wkidPlaceholder": {
+              "t": "WKID broj ili WKT",
+              "src": "machine",
+              "h": "21caeaca9ad4"
+            },
+            "showInResults": {
+              "t": "Prikaži u rezultatima",
+              "src": "machine",
+              "h": "4ca43a6c6591"
+            },
+            "wkidOrWkt": {
+              "t": "WKID ili WKT",
+              "src": "machine",
+              "h": "b8d9f6f36a82"
+            },
+            "wkidEnterHint": {
+              "t": "Upišite WKID i pritisnite Enter, ili zalijepite WKT i kliknite dalje.",
+              "src": "machine",
+              "h": "e2853826ef2e"
+            },
+            "fmtDDMShort": {
+              "t": "DDM",
+              "src": "machine",
+              "h": "c38dffdb1012"
+            },
+            "fmtDMSShort": {
+              "t": "DMS",
+              "src": "machine",
+              "h": "477e5652779d"
+            },
+            "fmtMGRSShort": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNGShort": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTMShort": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYHint": {
+              "t": "Dvije kutije, X i Y, u projiciranom ili geografskom koordinatnom sistemu.",
+              "src": "machine",
+              "h": "340f05cfbc5e"
+            },
+            "fmtDDHint": {
+              "t": "Jedna kutija za geografsku širinu i geografsku dužinu u decimalnim stepenima, WGS84.",
+              "src": "machine",
+              "h": "66d3c5a7bafb"
+            },
+            "fmtDDMHint": {
+              "t": "Jedna kutija za geografsku širinu i dužinu u stepenima i decimalnim minutama, WGS84.",
+              "src": "machine",
+              "h": "7bdcf8b23774"
+            },
+            "fmtDMSHint": {
+              "t": "Jedna kutija za geografsku širinu i dužinu u stepenima, minutama i sekundama, WGS84.",
+              "src": "machine",
+              "h": "1b04b42ec9cc"
+            },
+            "fmtMGRSHint": {
+              "t": "Jedna kutija za reference na vojnoj mreži.",
+              "src": "machine",
+              "h": "57f952003410"
+            },
+            "fmtUSNGHint": {
+              "t": "Jedna kutija za nacionalnu mrežu Sjedinjenih Država.",
+              "src": "machine",
+              "h": "b6cfbfa46ace"
+            },
+            "fmtUTMHint": {
+              "t": "Jedna kutija za Universal Transverse Mercator referencu sa zonom i pojasom geografske širine.",
+              "src": "machine",
+              "h": "6684b8d43ae1"
+            },
+            "fmtXYExample": {
+              "t": "Prazno: centar za mapu",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDDExample": {
+              "t": "Prazno: centar za mapu",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDDMExample": {
+              "t": "Prazno: centar za mapu",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDMSExample": {
+              "t": "Prazno: centar za mapu",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtMGRSExample": {
+              "t": "Prazno: centar za mapu",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtUSNGExample": {
+              "t": "Prazno: centar za mapu",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtUTMExample": {
+              "t": "Prazno: centar za mapu",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "nameHint": {
+              "t": "Prikazano u listi jedinica na kartici Koordinate.",
+              "src": "machine",
+              "h": "9738ff7f4f36"
+            },
+            "wkidMapPlaceholder": {
+              "t": "Prazno: koordinatni sistem mape",
+              "src": "machine",
+              "h": "2801d469d6c6"
+            },
+            "wkidMapHint": {
+              "t": "Blank koristi vlastiti koordinatni sistem mape.",
+              "src": "machine",
+              "h": "67a12ec44e42"
+            },
+            "wkidChecking": {
+              "t": "Provjeravam WKID...",
+              "src": "machine",
+              "h": "a357f6205218"
+            },
+            "wkidValidNoName": {
+              "t": "Projekcijski motor podržava ovaj WKID.",
+              "src": "machine",
+              "h": "d5b61a252a84"
+            },
+            "transformAuto": {
+              "t": "Automatski (najbolji za područje sa mapom)",
+              "src": "machine",
+              "h": "9c2635bbee4e"
+            },
+            "transformCustom": {
+              "t": "Prilagođeno (iz starije konfiguracije)",
+              "src": "machine",
+              "h": "3c71b890fe14"
+            },
+            "transformHint": {
+              "t": "Koristi se između ovog koordinatnog sistema i WGS84. Automatski odabire najbolju transformaciju baziranu na jednačinama za područje karte.",
+              "src": "machine",
+              "h": "d2f035353e3b"
+            },
+            "inverse": {
+              "t": "inverse",
+              "src": "machine",
+              "h": "21e9d68ede8c"
+            },
+            "labelsHint": {
+              "t": "Prazne oznake čitaju Longitude i Latitude za geografski sistem, X i Y inače.",
+              "src": "machine",
+              "h": "6378fff30fab"
+            },
+            "exampleOptional": {
+              "t": "Primjer (opcionalno)",
+              "src": "machine",
+              "h": "6d7b874a5c4b"
+            },
+            "exampleHint": {
+              "t": "Ostavi prazno i grafički element prikazuje središte karte u ovom formatu, što je uvijek važeći primjer.",
+              "src": "machine",
+              "h": "5f8f423c4687"
+            },
+            "resultFormatsTitle": {
+              "t": "Koordinate prikazane u rezultatima",
+              "src": "machine",
+              "h": "e776e65091ca"
+            },
+            "resultWkidLabel": {
+              "t": "WKID za X i Y (prazan: mapa)",
+              "src": "machine",
+              "h": "95d1a073be3a"
+            },
+            "removeResultFormat": {
+              "t": "Ukloni ovaj format",
+              "src": "machine",
+              "h": "907f18bdca02"
+            },
+            "addResultFormat": {
+              "t": "Dodaj koordinatni format",
+              "src": "machine",
+              "h": "6a2801bbe2b7"
+            },
+            "resultFormatsHint": {
+              "t": "Svaki format je jedna linija u rezultatskom popupu i listi rezultata. X i Y uzimaju WKID; ostavljaju ga praznim za koordinatni sistem karte.",
+              "src": "machine",
+              "h": "e113b7da2809"
+            }
+          }
         },
         "ca": {
           "file": "f9192f8967ca",
@@ -24158,18 +26212,554 @@
           }
         },
         "hr": {
-          "file": "f25610406e67",
+          "file": "dfa40b910bf9",
           "counts": {
             "esri": 21,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 107,
             "stale": 0,
-            "missing": 108
+            "missing": 1
           },
-          "entries": {}
+          "entries": {
+            "configeLocate": {
+              "t": "Podesi poboljšano lociranje",
+              "src": "machine",
+              "h": "fcbf08df32ff"
+            },
+            "contryCodeLbl": {
+              "t": "Kodeksi država(a)",
+              "src": "machine",
+              "h": "60908feae2a1"
+            },
+            "countryCodeExamples": {
+              "t": "Npr. USA, CHN",
+              "src": "machine",
+              "h": "50a205ac631b"
+            },
+            "countryCodeBlank": {
+              "t": "Ostavljajući ovu vrijednost praznom će pretražiti sve zemlje",
+              "src": "machine",
+              "h": "6537aa327238"
+            },
+            "addressinsplabel": {
+              "t": "Adresni inspektor",
+              "src": "machine",
+              "h": "01bb79199fb0"
+            },
+            "infowindowautoclose": {
+              "t": "Iskakajuće automatsko zatvaranje (sekundi)",
+              "src": "machine",
+              "h": "d5dfd8595eb1"
+            },
+            "mouseovergraphic": {
+              "t": "Omogući miša preko grafičkih info prozora",
+              "src": "machine",
+              "h": "197696d23c71"
+            },
+            "mouseoverresult": {
+              "t": "Omogući miša preko rezultata info Windows",
+              "src": "machine",
+              "h": "9f5ac3a1cfcc"
+            },
+            "keepactive": {
+              "t": "Držati adresu inspektor alat aktivan nakon svake adrese inspekcije",
+              "src": "machine",
+              "h": "e6a2180fea0f"
+            },
+            "autoclosetip": {
+              "t": "Ako ne odredite nekoliko sekundi ovdje onda skočni prozor neće automatski zatvoriti",
+              "src": "machine",
+              "h": "f36c1a594474"
+            },
+            "zoomScale": {
+              "t": "Uobičajena skala uvećanja",
+              "src": "machine",
+              "h": "64d033cf1a46"
+            },
+            "forcescale": {
+              "t": "Skala sile",
+              "src": "machine",
+              "h": "cb524da13dfa"
+            },
+            "limittoviewextent": {
+              "t": "Omogući geokodersko ograničenje u opsegu pregleda uobičajeno (ako je podržano)",
+              "src": "machine",
+              "h": "aa9b085c5077"
+            },
+            "popupCoordsSR": {
+              "t": "WKID za koordinate prikazane u popupu",
+              "src": "machine",
+              "h": "715a47d5cefd"
+            },
+            "mapCoordUnit": {
+              "t": "Koordinatna jedinica mape",
+              "src": "machine",
+              "h": "f022c499128f"
+            },
+            "addUnit": {
+              "t": "Dodaj jedinicu koordinata mape",
+              "src": "machine",
+              "h": "ec81aafc321b"
+            },
+            "editUnit": {
+              "t": "Uredi koordinatnu jedinicu mape",
+              "src": "machine",
+              "h": "25624e52fdc5"
+            },
+            "newCoordUnit": {
+              "t": "Dodaj novu jedinicu koordinata mape i prilagodi opcije.",
+              "src": "machine",
+              "h": "82ed08691d0f"
+            },
+            "example": {
+              "t": "Primjer",
+              "src": "machine",
+              "h": "0f01ed56a1e3"
+            },
+            "xlabel": {
+              "t": "X oznaka",
+              "src": "machine",
+              "h": "58b39e146c59"
+            },
+            "ylabel": {
+              "t": "Naljepnica Y",
+              "src": "machine",
+              "h": "9841f4755564"
+            },
+            "wkid": {
+              "t": "WKID",
+              "src": "machine",
+              "h": "55a4a75dbbfe"
+            },
+            "tfwkid": {
+              "t": "Transformiraj WKID",
+              "src": "machine",
+              "h": "42f8cf6f9c54"
+            },
+            "cName": {
+              "t": "ID koordinatnog sustava",
+              "src": "machine",
+              "h": "51285a0d2447"
+            },
+            "tfName": {
+              "t": "ID koordinatnog sustava za transformaciju",
+              "src": "machine",
+              "h": "c368ab481d94"
+            },
+            "dd": {
+              "t": "Decimalni stupnjevi (DD)",
+              "src": "machine",
+              "h": "3b8d9b954566"
+            },
+            "dms": {
+              "t": "Stupnjevi Minutes Seconds (DMS)",
+              "src": "machine",
+              "h": "a153dbe4c86c"
+            },
+            "dm": {
+              "t": "Stupnjevi minuta (DM)",
+              "src": "machine",
+              "h": "a0b8565c64af"
+            },
+            "ddm": {
+              "t": "Stupanj decimalne minute (DDM)",
+              "src": "machine",
+              "h": "03c9e5f469b1"
+            },
+            "nameExample": {
+              "t": "NAD 1983. UTM 16N",
+              "src": "machine",
+              "h": "31492d5b8810"
+            },
+            "invalidTFWKID": {
+              "t": "Neispravan transformator naprijed WKID",
+              "src": "machine",
+              "h": "260272c1ed0a"
+            },
+            "projx": {
+              "t": "Istok (X):",
+              "src": "machine",
+              "h": "5510ed452f4b"
+            },
+            "projy": {
+              "t": "Sjever (Y):",
+              "src": "machine",
+              "h": "767e7ec7b84a"
+            },
+            "inputunits": {
+              "t": "Jedinice za unos",
+              "src": "machine",
+              "h": "f6806930d12d"
+            },
+            "editdisabledtaboptions": {
+              "t": "Odaberite karticu(e) za isključenje",
+              "src": "machine",
+              "h": "1e61c2e6f254"
+            },
+            "popupCoordsSRprecision": {
+              "t": "Koordinacijska preciznost u iskačućim rezultatima",
+              "src": "machine",
+              "h": "7692e5a5b00b"
+            },
+            "noVisibleTabsWarning": {
+              "t": "Adresa, koordinate i inspektor su isključeni.",
+              "src": "machine",
+              "h": "7903896827cd"
+            },
+            "locatorUrl": {
+              "t": "Geocode servis URL",
+              "src": "machine",
+              "h": "9cd99b59da08"
+            },
+            "enterUrl": {
+              "t": "Unesite URL GeocodeServera",
+              "src": "machine",
+              "h": "8790ff3b5c26"
+            },
+            "invalidUrlMessage": {
+              "t": "Ovaj URL nije geocode servis Iskustvo Graditelj može čitati.",
+              "src": "machine",
+              "h": "8f9abd8c0242"
+            },
+            "helpSection": {
+              "t": "Vodič za pomoć",
+              "src": "machine",
+              "h": "d299aafb825a"
+            },
+            "showHelp": {
+              "t": "Prikaži vodič pomoći",
+              "src": "machine",
+              "h": "03e9f0b81336"
+            },
+            "showHelpTip": {
+              "t": "Prikazuje gumb s upitnikom koji otvara vodič za pomoć u widgetu, i nagovještaj za prvu runu.",
+              "src": "machine",
+              "h": "de0cf43db64c"
+            },
+            "coordFormat": {
+              "t": "Format",
+              "src": "machine",
+              "h": "041a5dec481d"
+            },
+            "fmtXY": {
+              "t": "X i Y",
+              "src": "machine",
+              "h": "18ea7f3cb08e"
+            },
+            "fmtMGRS": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNG": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTM": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYShort": {
+              "t": "X, Y",
+              "src": "machine",
+              "h": "792fe9a19865"
+            },
+            "fmtXYMap": {
+              "t": "Karta X i Y",
+              "src": "machine",
+              "h": "5e16f34cc262"
+            },
+            "fmtXYMapHint": {
+              "t": "Dvije kutije, X i Y, u koordinatnom sustavu karte.",
+              "src": "machine",
+              "h": "d21017249ece"
+            },
+            "coordSectionTitle": {
+              "t": "Koordinatni formati",
+              "src": "machine",
+              "h": "25a5841dfc46"
+            },
+            "legacyUnitsNote": {
+              "t": "Ovaj widget još uvijek ima koordinatne jedinice iz 1.9 inačice. Oni i dalje rade, ali možda neće odgovarati ovoj mapi, na primjer koordinatni sustav za drugo područje. Prebacite se na standardne formate i dodajte vlastite koordinatne sustave ispod.",
+              "src": "machine",
+              "h": "0ea56373bdfa"
+            },
+            "useStandardFormats": {
+              "t": "Koristi standardne formate",
+              "src": "machine",
+              "h": "2f279160b8df"
+            },
+            "coordFormatsLabel": {
+              "t": "Gdje je ponuđen svaki format",
+              "src": "machine",
+              "h": "bb937ec5d300"
+            },
+            "colTab": {
+              "t": "_Koordinate",
+              "src": "machine",
+              "h": "cf71906c8df1"
+            },
+            "offerOnTab": {
+              "t": "Ponuda {name} na kartici Koordinate",
+              "src": "machine",
+              "h": "8108dd445587"
+            },
+            "showInResultsNamed": {
+              "t": "Prikaži {name} u rezultatima",
+              "src": "machine",
+              "h": "3aa8aee61c1c"
+            },
+            "coordFormatsHint": {
+              "t": "Koordinate kartice: formati ljudi mogu utipkati. Rezultati: koordinatne linije pod svakim rezultatom i u svom popup. To su isti formati kao Esri's Coordinate Convertion komponenta.",
+              "src": "machine",
+              "h": "cc618fd5492d"
+            },
+            "noTabFormats": {
+              "t": "Nijedan format nije ponuđen, tako da je kartica Koordinate skrivena.",
+              "src": "machine",
+              "h": "c4507f37da8a"
+            },
+            "ddDecimals": {
+              "t": "Decimalni stupnjevi: decimalna mjesta",
+              "src": "machine",
+              "h": "c8f98ab123ad"
+            },
+            "xyDecimals": {
+              "t": "X i Y: decimalna mjesta",
+              "src": "machine",
+              "h": "0903c4d9f77f"
+            },
+            "customSystemsTitle": {
+              "t": "Koordinatni sustavi za X i Y",
+              "src": "machine",
+              "h": "678b101bb1d5"
+            },
+            "customSystemsHint": {
+              "t": "Dodajte bilo koji drugi koordinatni sustav koji vaša organizacija koristi: utipkajte njegov WKID, ili zalijepite njegov WKT za lokalni ili prilagođeni sustav bez WKID-a. Nudi se na kartici Koordinate s dvije kutije, X i Y, i može se prikazati u rezultatima.",
+              "src": "machine",
+              "h": "0073ba903516"
+            },
+            "addSystem": {
+              "t": "Dodaj koordinatni sustav",
+              "src": "machine",
+              "h": "6127de527dd7"
+            },
+            "removeSystem": {
+              "t": "Ukloni ovaj koordinatni sustav",
+              "src": "machine",
+              "h": "50e794120d65"
+            },
+            "wkidPlaceholder": {
+              "t": "WKID broj, ili WKT",
+              "src": "machine",
+              "h": "21caeaca9ad4"
+            },
+            "showInResults": {
+              "t": "Prikaži u rezultatima",
+              "src": "machine",
+              "h": "4ca43a6c6591"
+            },
+            "wkidOrWkt": {
+              "t": "WKID ili WKT",
+              "src": "machine",
+              "h": "b8d9f6f36a82"
+            },
+            "wkidEnterHint": {
+              "t": "Upišite WKID i pritisnite Enter, ili zalijepite WKT i kliknite dalje.",
+              "src": "machine",
+              "h": "e2853826ef2e"
+            },
+            "fmtDDMShort": {
+              "t": "DDM",
+              "src": "machine",
+              "h": "c38dffdb1012"
+            },
+            "fmtDMSShort": {
+              "t": "DMS",
+              "src": "machine",
+              "h": "477e5652779d"
+            },
+            "fmtMGRSShort": {
+              "t": "MGRS",
+              "src": "machine",
+              "h": "77132d5ce531"
+            },
+            "fmtUSNGShort": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTMShort": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYHint": {
+              "t": "Dvije kutije, X i Y, u projiciranom ili geografskom koordinatnom sustavu.",
+              "src": "machine",
+              "h": "340f05cfbc5e"
+            },
+            "fmtDDHint": {
+              "t": "Jedna kutija za geografsku širinu i geografsku dužinu u decimalnim stupnjevima, WGS84.",
+              "src": "machine",
+              "h": "66d3c5a7bafb"
+            },
+            "fmtDDMHint": {
+              "t": "Jedna kutija za geografsku širinu i geografsku dužinu u stupnjevima i decimalnim minutama, WGS84.",
+              "src": "machine",
+              "h": "7bdcf8b23774"
+            },
+            "fmtDMSHint": {
+              "t": "Jedna kutija za geografsku širinu i dužinu u stupnjevima, minutama i sekundama, WGS84.",
+              "src": "machine",
+              "h": "1b04b42ec9cc"
+            },
+            "fmtMGRSHint": {
+              "t": "Jedna kutija za referencu vojnog sustava.",
+              "src": "machine",
+              "h": "57f952003410"
+            },
+            "fmtUSNGHint": {
+              "t": "Jedna kutija za nacionalnu mrežu Sjedinjenih Država.",
+              "src": "machine",
+              "h": "b6cfbfa46ace"
+            },
+            "fmtUTMHint": {
+              "t": "Jedna kutija za Universal Transverse Mercator referencu sa zonom i pojasom zemljopisne širine.",
+              "src": "machine",
+              "h": "6684b8d43ae1"
+            },
+            "fmtXYExample": {
+              "t": "Prazno: centar karte",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDDExample": {
+              "t": "Prazno: centar karte",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDDMExample": {
+              "t": "Prazno: centar karte",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDMSExample": {
+              "t": "Prazno: centar karte",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtMGRSExample": {
+              "t": "Prazno: centar karte",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtUSNGExample": {
+              "t": "Prazno: centar karte",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtUTMExample": {
+              "t": "Prazno: centar karte",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "nameHint": {
+              "t": "Prikazano u popisu jedinica na kartici Koordinate.",
+              "src": "machine",
+              "h": "9738ff7f4f36"
+            },
+            "wkidMapPlaceholder": {
+              "t": "Prazno: koordinatni sustav mape",
+              "src": "machine",
+              "h": "2801d469d6c6"
+            },
+            "wkidMapHint": {
+              "t": "Blank koristi vlastiti koordinatni sustav mape.",
+              "src": "machine",
+              "h": "67a12ec44e42"
+            },
+            "wkidChecking": {
+              "t": "Provjeravam WKID...",
+              "src": "machine",
+              "h": "a357f6205218"
+            },
+            "wkidValidNoName": {
+              "t": "Projekcijski motor podržava ovaj WKID.",
+              "src": "machine",
+              "h": "d5b61a252a84"
+            },
+            "transformAuto": {
+              "t": "Automatski (najbolji za područje karte)",
+              "src": "machine",
+              "h": "9c2635bbee4e"
+            },
+            "transformCustom": {
+              "t": "Prilagođeno (iz starije konfiguracije)",
+              "src": "machine",
+              "h": "3c71b890fe14"
+            },
+            "transformHint": {
+              "t": "Koristi se između ovog koordinatnog sustava i WGS84. Automatski odabire najbolju transformaciju baziranu na jednadžbi za područje karte.",
+              "src": "machine",
+              "h": "d2f035353e3b"
+            },
+            "inverse": {
+              "t": "inverzno",
+              "src": "machine",
+              "h": "21e9d68ede8c"
+            },
+            "labelsHint": {
+              "t": "Prazne oznake čitaju Longitude i Latitude za geografski sustav, X i Y inače.",
+              "src": "machine",
+              "h": "6378fff30fab"
+            },
+            "exampleOptional": {
+              "t": "Primjer (opcionalno)",
+              "src": "machine",
+              "h": "6d7b874a5c4b"
+            },
+            "exampleHint": {
+              "t": "Ostavite prazno i widget prikazuje središte karte u ovom formatu, što je uvijek valjan primjer.",
+              "src": "machine",
+              "h": "5f8f423c4687"
+            },
+            "resultFormatsTitle": {
+              "t": "Koordinate prikazane u rezultatima",
+              "src": "machine",
+              "h": "e776e65091ca"
+            },
+            "resultFormatN": {
+              "t": "Koordinatni format rezultata {n}",
+              "src": "machine",
+              "h": "456ea9a6c556"
+            },
+            "resultWkidLabel": {
+              "t": "WKID za X i Y (prazan: karta)",
+              "src": "machine",
+              "h": "95d1a073be3a"
+            },
+            "removeResultFormat": {
+              "t": "Ukloni ovaj format",
+              "src": "machine",
+              "h": "907f18bdca02"
+            },
+            "addResultFormat": {
+              "t": "Dodaj oblik koordinata",
+              "src": "machine",
+              "h": "6a2801bbe2b7"
+            },
+            "resultFormatsHint": {
+              "t": "Svaki format je jedna linija u rezultat popup i popis rezultata. X i Y uzeti WKID; ostaviti ga prazan za karti koordinata sustava.",
+              "src": "machine",
+              "h": "e113b7da2809"
+            }
+          }
         },
         "hu": {
           "file": "b955d0d15d2d",
@@ -32852,18 +35442,544 @@
           }
         },
         "sr": {
-          "file": "cd20bc8afe49",
+          "file": "85591f7c615c",
           "counts": {
             "esri": 22,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 105,
             "stale": 0,
-            "missing": 106
+            "missing": 1
           },
-          "entries": {}
+          "entries": {
+            "configeLocate": {
+              "t": "Подешавање унапређене локације@ info: whatsthis",
+              "src": "machine",
+              "h": "fcbf08df32ff"
+            },
+            "contryCodeLbl": {
+              "t": "Country Code(s)",
+              "src": "machine",
+              "h": "60908feae2a1"
+            },
+            "countryCodeExamples": {
+              "t": "Npr. USA,CHN",
+              "src": "machine",
+              "h": "50a205ac631b"
+            },
+            "countryCodeBlank": {
+              "t": "Ostavljajući ovu vrednost praznom pretražiće sve zemlje",
+              "src": "machine",
+              "h": "6537aa327238"
+            },
+            "addressinsplabel": {
+              "t": "Adresa, inspektore.",
+              "src": "machine",
+              "h": "01bb79199fb0"
+            },
+            "infowindowautoclose": {
+              "t": "Скачуће аутоматско затварање (секунде)",
+              "src": "machine",
+              "h": "d5dfd8595eb1"
+            },
+            "mouseovergraphic": {
+              "t": "Укључи миш преко графичких инфо прозора",
+              "src": "machine",
+              "h": "197696d23c71"
+            },
+            "mouseoverresult": {
+              "t": "Укључи мишове преко резултата Инфо прозори",
+              "src": "machine",
+              "h": "9f5ac3a1cfcc"
+            },
+            "keepactive": {
+              "t": "Držite adresu inspektor alat aktivan nakon svake adrese inspekcije",
+              "src": "machine",
+              "h": "e6a2180fea0f"
+            },
+            "autoclosetip": {
+              "t": "Ako ne odredite nekoliko sekundi ovde onda se popup neće automatski zatvoriti",
+              "src": "machine",
+              "h": "f36c1a594474"
+            },
+            "zoomScale": {
+              "t": "Подразум ијевана разм јера зимирања",
+              "src": "machine",
+              "h": "64d033cf1a46"
+            },
+            "forcescale": {
+              "t": "Скала силеQShortcut",
+              "src": "machine",
+              "h": "cb524da13dfa"
+            },
+            "limittoviewextent": {
+              "t": "Uključi geokoder limit u meri pregleda podrazumevano (ako je podržano)",
+              "src": "machine",
+              "h": "aa9b085c5077"
+            },
+            "popupCoordsSR": {
+              "t": "WKID za koordinate prikazane u popupu",
+              "src": "machine",
+              "h": "715a47d5cefd"
+            },
+            "mapCoordUnit": {
+              "t": "Koordinatna jedinica mape",
+              "src": "machine",
+              "h": "f022c499128f"
+            },
+            "addUnit": {
+              "t": "Dodaj koordinatnu jedinicu mape",
+              "src": "machine",
+              "h": "ec81aafc321b"
+            },
+            "editUnit": {
+              "t": "Uredi koordinatnu jedinicu mape",
+              "src": "machine",
+              "h": "25624e52fdc5"
+            },
+            "newCoordUnit": {
+              "t": "Dodavanje nove koordinate mape i podešavanje opcija.",
+              "src": "machine",
+              "h": "82ed08691d0f"
+            },
+            "example": {
+              "t": "Primer",
+              "src": "machine",
+              "h": "0f01ed56a1e3"
+            },
+            "xlabel": {
+              "t": "X ознакаQShortcut",
+              "src": "machine",
+              "h": "58b39e146c59"
+            },
+            "ylabel": {
+              "t": "Y ознакаQShortcut",
+              "src": "machine",
+              "h": "9841f4755564"
+            },
+            "wkid": {
+              "t": "WKID",
+              "src": "machine",
+              "h": "55a4a75dbbfe"
+            },
+            "tfwkid": {
+              "t": "Преображај WKID",
+              "src": "machine",
+              "h": "42f8cf6f9c54"
+            },
+            "cName": {
+              "t": "ID koordinatnog sistema",
+              "src": "machine",
+              "h": "51285a0d2447"
+            },
+            "tfName": {
+              "t": "ID koordinatnog sistema za transformaciju",
+              "src": "machine",
+              "h": "c368ab481d94"
+            },
+            "dd": {
+              "t": "Децимални степени (ДД)",
+              "src": "machine",
+              "h": "3b8d9b954566"
+            },
+            "dms": {
+              "t": "Stupnjevi Minutes Seconds (DMS)",
+              "src": "machine",
+              "h": "a153dbe4c86c"
+            },
+            "dm": {
+              "t": "Stupnjevi Minutes (DM)",
+              "src": "machine",
+              "h": "a0b8565c64af"
+            },
+            "ddm": {
+              "t": "Степени Децимални минути (ДДМ)",
+              "src": "machine",
+              "h": "03c9e5f469b1"
+            },
+            "nameExample": {
+              "t": "NAD 1983 UTM 16N",
+              "src": "machine",
+              "h": "31492d5b8810"
+            },
+            "invalidTFWKID": {
+              "t": "Неисправан трансформативни предњи WKID",
+              "src": "machine",
+              "h": "260272c1ed0a"
+            },
+            "projx": {
+              "t": "Istok (X):",
+              "src": "machine",
+              "h": "5510ed452f4b"
+            },
+            "projy": {
+              "t": "Severing (Y):",
+              "src": "machine",
+              "h": "767e7ec7b84a"
+            },
+            "inputunits": {
+              "t": "Jedinice za unos",
+              "src": "machine",
+              "h": "f6806930d12d"
+            },
+            "editdisabledtaboptions": {
+              "t": "Odaberite tabulatore za isključivanje",
+              "src": "machine",
+              "h": "1e61c2e6f254"
+            },
+            "popupCoordsSRprecision": {
+              "t": "Koordinatna preciznost u iskačućim rezultatima",
+              "src": "machine",
+              "h": "7692e5a5b00b"
+            },
+            "noVisibleTabsWarning": {
+              "t": "Adresa, koordinate i inspektor su iskljuèeni.",
+              "src": "machine",
+              "h": "7903896827cd"
+            },
+            "locatorUrl": {
+              "t": "Geocode servis URL",
+              "src": "machine",
+              "h": "9cd99b59da08"
+            },
+            "enterUrl": {
+              "t": "Унесите УРЛ геокод сервера",
+              "src": "machine",
+              "h": "8790ff3b5c26"
+            },
+            "invalidUrlMessage": {
+              "t": "Ovaj URL nije geocode servis Iskustvo Graditelj može čitati.",
+              "src": "machine",
+              "h": "8f9abd8c0242"
+            },
+            "helpSection": {
+              "t": "Uputstvo za pomoć",
+              "src": "machine",
+              "h": "d299aafb825a"
+            },
+            "showHelp": {
+              "t": "Pokaži vodič za pomoć",
+              "src": "machine",
+              "h": "03e9f0b81336"
+            },
+            "showHelpTip": {
+              "t": "Pokazuje dugme sa znakom pitanja koje otvara vodiè za pomoć u vidžetu, i prvi nagoveštaj.",
+              "src": "machine",
+              "h": "de0cf43db64c"
+            },
+            "coordFormat": {
+              "t": "Формат@ info: whatsthis",
+              "src": "machine",
+              "h": "041a5dec481d"
+            },
+            "fmtXY": {
+              "t": "X i Y",
+              "src": "machine",
+              "h": "18ea7f3cb08e"
+            },
+            "fmtUSNG": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTM": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYShort": {
+              "t": "X, Y",
+              "src": "machine",
+              "h": "792fe9a19865"
+            },
+            "fmtXYMap": {
+              "t": "Mapa X i Y",
+              "src": "machine",
+              "h": "5e16f34cc262"
+            },
+            "fmtXYMapHint": {
+              "t": "Dve kutije, X i Y, u koordinatnom sistemu mape.",
+              "src": "machine",
+              "h": "d21017249ece"
+            },
+            "coordSectionTitle": {
+              "t": "Koordinatni formati",
+              "src": "machine",
+              "h": "25a5841dfc46"
+            },
+            "legacyUnitsNote": {
+              "t": "Ovaj grafički element još uvek ima koordinatne jedinice iz 1.9 verzije. Oni nastavljaju da rade, ali možda ne odgovaraju ovoj mapi, na primer koordinatni sistem za drugačiju oblast. Prebacite se na standardne formate i dodajte sopstvene koordinatne sisteme ispod.",
+              "src": "machine",
+              "h": "0ea56373bdfa"
+            },
+            "useStandardFormats": {
+              "t": "Koristi standardne formate",
+              "src": "machine",
+              "h": "2f279160b8df"
+            },
+            "coordFormatsLabel": {
+              "t": "Gde je ponuđen svaki format",
+              "src": "machine",
+              "h": "bb937ec5d300"
+            },
+            "colTab": {
+              "t": "_Koordinate",
+              "src": "machine",
+              "h": "cf71906c8df1"
+            },
+            "offerOnTab": {
+              "t": "Ponuda {name} na kartici Koordinate",
+              "src": "machine",
+              "h": "8108dd445587"
+            },
+            "showInResultsNamed": {
+              "t": "Prikaži {name} u rezultatima",
+              "src": "machine",
+              "h": "3aa8aee61c1c"
+            },
+            "coordFormatsHint": {
+              "t": "Kartica sa koordinatama: formati koje ljudi mogu da ukucaju. Rezultati: koordinatne linije ispod svakog rezultata i u njegovom popupu. Ovo su isti formati kao Esrijeva komponenta za koordinaciju konverzije.",
+              "src": "machine",
+              "h": "cc618fd5492d"
+            },
+            "noTabFormats": {
+              "t": "Nijedan format nije ponuðen, tako da je kartica sa koordinatama skrivena.",
+              "src": "machine",
+              "h": "c4507f37da8a"
+            },
+            "ddDecimals": {
+              "t": "Децимални степени: децимална места",
+              "src": "machine",
+              "h": "c8f98ab123ad"
+            },
+            "xyDecimals": {
+              "t": "X i Y: decimalna mesta",
+              "src": "machine",
+              "h": "0903c4d9f77f"
+            },
+            "customSystemsTitle": {
+              "t": "Koordinatni sistemi za X i Y",
+              "src": "machine",
+              "h": "678b101bb1d5"
+            },
+            "customSystemsHint": {
+              "t": "Dodajte bilo koji drugi koordinatni sistem koji vaša organizacija koristi: ukucajte njegov WKID, ili zalepite njegov WKT za lokalni ili prilagođeni sistem bez WKID. Ponuđen je na kartici Koordinate sa dve kutije, X i Y, i može biti prikazan u rezultatima.",
+              "src": "machine",
+              "h": "0073ba903516"
+            },
+            "addSystem": {
+              "t": "Dodaj koordinatni sistem",
+              "src": "machine",
+              "h": "6127de527dd7"
+            },
+            "removeSystem": {
+              "t": "Ukloni ovaj koordinatni sistem",
+              "src": "machine",
+              "h": "50e794120d65"
+            },
+            "wkidPlaceholder": {
+              "t": "WKID broj, ili WKT",
+              "src": "machine",
+              "h": "21caeaca9ad4"
+            },
+            "showInResults": {
+              "t": "Prikaži u rezultatima",
+              "src": "machine",
+              "h": "4ca43a6c6591"
+            },
+            "wkidOrWkt": {
+              "t": "WKID ili WKT",
+              "src": "machine",
+              "h": "b8d9f6f36a82"
+            },
+            "wkidEnterHint": {
+              "t": "Ukucajte WKID i pritisnite Enter, ili zalijepite WKT i kliknite dalje.",
+              "src": "machine",
+              "h": "e2853826ef2e"
+            },
+            "fmtDDMShort": {
+              "t": "DDM",
+              "src": "machine",
+              "h": "c38dffdb1012"
+            },
+            "fmtDMSShort": {
+              "t": "DMS",
+              "src": "machine",
+              "h": "477e5652779d"
+            },
+            "fmtUSNGShort": {
+              "t": "USNG",
+              "src": "machine",
+              "h": "259d04abc8fb"
+            },
+            "fmtUTMShort": {
+              "t": "UTM",
+              "src": "machine",
+              "h": "22a15aa0c12f"
+            },
+            "fmtXYHint": {
+              "t": "Dve kutije, X i Y, u projiciranom ili geografskom koordinatnom sistemu.",
+              "src": "machine",
+              "h": "340f05cfbc5e"
+            },
+            "fmtDDHint": {
+              "t": "Jedna kutija za geografsku širinu i dužinu u decimalnim stepenima, WGS84.",
+              "src": "machine",
+              "h": "66d3c5a7bafb"
+            },
+            "fmtDDMHint": {
+              "t": "Jedna kutija za geografsku širinu i dužinu u stepenima i decimalnim minutama, WGS84.",
+              "src": "machine",
+              "h": "7bdcf8b23774"
+            },
+            "fmtDMSHint": {
+              "t": "Jedna kutija za geografsku širinu i dužinu u stepenima, minutama i sekundama, WGS84.",
+              "src": "machine",
+              "h": "1b04b42ec9cc"
+            },
+            "fmtMGRSHint": {
+              "t": "Jedna kutija za referencu vojnog sistema.",
+              "src": "machine",
+              "h": "57f952003410"
+            },
+            "fmtUSNGHint": {
+              "t": "Jedna kutija za nacionalnu mrežu Sjedinjenih Država.",
+              "src": "machine",
+              "h": "b6cfbfa46ace"
+            },
+            "fmtUTMHint": {
+              "t": "Jedna kutija za Universal Transverse Mercator referencu sa zonom i pojasom širine.",
+              "src": "machine",
+              "h": "6684b8d43ae1"
+            },
+            "fmtXYExample": {
+              "t": "Prazno: centar mape",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDDExample": {
+              "t": "Prazno: centar mape",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDDMExample": {
+              "t": "Prazno: centar mape",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtDMSExample": {
+              "t": "Prazno: centar mape",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtMGRSExample": {
+              "t": "Prazno: centar mape",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtUSNGExample": {
+              "t": "Prazno: centar mape",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "fmtUTMExample": {
+              "t": "Prazno: centar mape",
+              "src": "machine",
+              "h": "2ae1015b2a92"
+            },
+            "nameHint": {
+              "t": "Prikazano u listi jedinica na kartici Koordinate.",
+              "src": "machine",
+              "h": "9738ff7f4f36"
+            },
+            "wkidMapPlaceholder": {
+              "t": "Prazno: koordinatni sistem mape",
+              "src": "machine",
+              "h": "2801d469d6c6"
+            },
+            "wkidMapHint": {
+              "t": "Blank koristi koordinatni sistem mape.",
+              "src": "machine",
+              "h": "67a12ec44e42"
+            },
+            "wkidChecking": {
+              "t": "Provjeravam WKID...",
+              "src": "machine",
+              "h": "a357f6205218"
+            },
+            "wkidValidNoName": {
+              "t": "Projekcijski motor podržava ovaj WKID.",
+              "src": "machine",
+              "h": "d5b61a252a84"
+            },
+            "transformAuto": {
+              "t": "Automatski (najbolji za područje mape)",
+              "src": "machine",
+              "h": "9c2635bbee4e"
+            },
+            "transformCustom": {
+              "t": "Prilagođeno (iz starije konfiguracije)",
+              "src": "machine",
+              "h": "3c71b890fe14"
+            },
+            "transformHint": {
+              "t": "Koristi se između ovog koordinatnog sistema i WGS84. Automatski odabire najbolju transformaciju zasnovanu na jednačinama za područje mape.",
+              "src": "machine",
+              "h": "d2f035353e3b"
+            },
+            "inverse": {
+              "t": "inverzno.",
+              "src": "machine",
+              "h": "21e9d68ede8c"
+            },
+            "labelsHint": {
+              "t": "Prazne oznake čitaju Longitude i Latitude za geografski sistem, X i Y inače.",
+              "src": "machine",
+              "h": "6378fff30fab"
+            },
+            "exampleOptional": {
+              "t": "Пример (опционално)",
+              "src": "machine",
+              "h": "6d7b874a5c4b"
+            },
+            "exampleHint": {
+              "t": "Ostavite prazno i vidžet prikazuje centar mape u ovom formatu, što je uvek valjan primer.",
+              "src": "machine",
+              "h": "5f8f423c4687"
+            },
+            "resultFormatsTitle": {
+              "t": "Koordinate prikazane u rezultatima",
+              "src": "machine",
+              "h": "e776e65091ca"
+            },
+            "resultFormatN": {
+              "t": "Result coordinate format {n}",
+              "src": "machine",
+              "h": "456ea9a6c556"
+            },
+            "resultWkidLabel": {
+              "t": "WKID za X i Y (prazan: mapa)",
+              "src": "machine",
+              "h": "95d1a073be3a"
+            },
+            "removeResultFormat": {
+              "t": "Ukloni ovaj format",
+              "src": "machine",
+              "h": "907f18bdca02"
+            },
+            "addResultFormat": {
+              "t": "Dodaj koordinatni format",
+              "src": "machine",
+              "h": "6a2801bbe2b7"
+            },
+            "resultFormatsHint": {
+              "t": "Svaki format je jedna linija u rezultatu iskakanja i liste rezultata. X i Y uzimaju WKID; ostavljaju ga prazno za koordinatni sistem mape.",
+              "src": "machine",
+              "h": "e113b7da2809"
+            }
+          }
         },
         "sv": {
           "file": "d6384ae9282d",
